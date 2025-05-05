@@ -1,0 +1,296 @@
+--------------------------------------------------------------------------------------
+
+1. https://www.hackerrank.com/challenges/plus-minus/problem?isFullScreen=true
+public static void plusMinus(List<int> arr)
+{
+    int n = arr.Count;
+    int positive = 0, negative = 0, zero = 0;
+    foreach(int i in arr) {
+        if(i > 0) {
+            positive++;
+        }else if (i < 0){
+            negative++;
+        }else {
+            zero++;
+        }
+    }
+    Console.WriteLine((double)positive/n);
+    Console.WriteLine((double)negative/n);
+    Console.WriteLine((double)zero/n);
+}
+
+------------------------------------------------------------------------------
+
+2. https://www.hackerrank.com/challenges/staircase/problem?isFullScreen=true
+public static void staircase(int n)
+{
+    for(int i=0; i<n; i++) {
+        for(int j=0; j<n-i-1; j++) {
+            Console.Write(" ");
+        }
+        for(int j=0; j<=i; j++) {
+            Console.Write("#");
+        }
+        Console.WriteLine();
+    }
+}
+
+------------------------------------------------------------------------------
+
+3. https://www.hackerrank.com/challenges/mini-max-sum/problem?isFullScreen=true
+public static void miniMaxSum(List<int> arr)
+{
+    int min = Int32.MaxValue;
+    int max = Int32.MinValue;
+    long totalSum = 0;
+    
+    foreach(int i in arr){
+        if(min > i) min = i;
+        if(max < i) max = i;
+        totalSum += i;
+    }
+    
+    Console.Write((totalSum - max) + " ");
+    Console.WriteLine(totalSum - min);
+}
+
+
+------------------------------------------------------------------------------
+
+4. https://www.hackerrank.com/challenges/birthday-cake-candles/problem?isFullScreen=true
+public static int birthdayCakeCandles(List<int> candles)
+{
+    int max = 0;
+    foreach(int candle in candles) {
+        if(max < candle) {
+            max = candle;
+        }
+    }
+    
+    int count = 0;
+    foreach(int candle in candles) {
+        if(max == candle) count++;
+    }
+    
+    return count;
+}
+
+------------------------------------------------------------------------------
+
+5. https://www.hackerrank.com/challenges/time-conversion/problem?isFullScreen=true
+public static string timeConversion(string s)
+{
+    string period = s.Substring(s.Length - 2);
+    s = s.Substring(0, s.Length - 2);
+
+    string[] parts = s.Split(':');
+    int hour = Int32.Parse(parts[0]);
+    int minute = Int32.Parse(parts[1]);
+    int second = Int32.Parse(parts[2]);
+
+    if (period == "AM" && hour == 12)
+    {
+        hour = 0;
+    }
+    else if (period == "PM" && hour != 12)
+    {
+        hour += 12;
+    }
+
+    return $"{hour:D2}:{minute:D2}:{second:D2}";
+}
+
+------------------------------------------------------------------------------
+
+6. https://www.hackerrank.com/challenges/grading/problem?isFullScreen=true
+public static List<int> gradingStudents(List<int> grades)
+{
+    List<int> updatedGrades = new List<int>();
+    foreach(int grade in grades) {
+        if(grade < 38 || 5 - grade % 5 > 2) {
+            updatedGrades.Add(grade);
+        } else {
+            updatedGrades.Add(grade + 5 - grade % 5);
+        }
+    }
+    return updatedGrades;
+}
+
+------------------------------------------------------------------------------
+
+7. https://www.hackerrank.com/challenges/apple-and-orange/problem?isFullScreen=true
+public static void countApplesAndOranges(int s, int t, int a, int b, List<int> apples, List<int> oranges)
+{
+    int appleCount = 0;
+    int orangeCount = 0;
+    
+    foreach(int apple in apples) {
+        int landingPosition = a + apple;
+        if(landingPosition >= s && landingPosition <= t) {
+            appleCount++;
+        }
+    }
+    
+    foreach(int orange in oranges) {
+        int landingPosition = b + orange;
+        if(landingPosition >= s && landingPosition <= t) {
+            orangeCount++;
+        }
+    }
+    
+    Console.WriteLine(appleCount);
+    Console.WriteLine(orangeCount);
+}
+
+------------------------------------------------------------------------------
+
+8. https://www.hackerrank.com/challenges/kangaroo/problem?isFullScreen=true
+public static string kangaroo(int x1, int v1, int x2, int v2)
+{
+    if (v1 == v2){
+        return x1 == x2 ? "YES" : "NO"; 
+    }
+
+    if ((x1 - x2) % (v2 - v1) == 0 && (x1 - x2) / (v2 - v1) > 0){
+        return "YES";
+    }
+
+    return "NO";
+}
+
+------------------------------------------------------------------------------
+
+9. https://www.hackerrank.com/challenges/between-two-sets/problem
+public static int getTotalX(List<int> a, List<int> b)
+{
+    int lcmA = a[0];
+    for (int i = 1; i < a.Count; i++)
+    {
+        lcmA = LCM(lcmA, a[i]);
+    }
+
+    int gcdB = b[0];
+    for (int i = 1; i < b.Count; i++)
+    {
+        gcdB = GCD(gcdB, b[i]);
+    }
+
+    int count = 0;
+    for (int i = lcmA; i <= gcdB; i += lcmA)
+    {
+        if (gcdB % i == 0)
+        {
+            count++;
+        }
+    }
+
+    return count;
+}
+
+public static int LCM(int x, int y)
+{
+    return (x * y) / GCD(x, y);
+}
+
+public static int GCD(int x, int y)
+{
+    while (y != 0)
+    {
+        int temp = y;
+        y = x % y;
+        x = temp;
+    }
+    return x;
+}
+
+------------------------------------------------------------------------------
+
+10. https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem?isFullScreen=true
+public static List<int> breakingRecords(List<int> scores)
+{
+    int min = scores[0], max = scores[0];
+    int minBreaks = 0, maxBreaks = 0;
+
+    for (int i = 1; i < scores.Count; i++)
+    {
+        if (scores[i] > max)
+        {
+            max = scores[i];
+            maxBreaks++;
+        }
+        else if (scores[i] < min)
+        {
+            min = scores[i];
+            minBreaks++;
+        }
+    }
+
+    return new List<int> { maxBreaks, minBreaks };
+}
+
+
+------------------------------------------------------------------------------
+
+11. https://www.hackerrank.com/challenges/the-birthday-bar/problem?isFullScreen=true
+public static int birthday(List<int> s, int d, int m)
+{
+    int count = 0;
+
+    for (int i = 0; i <= s.Count - m; i++){
+        int sum = 0;
+        for (int j = 0; j < m; j++) {
+            sum += s[i + j];
+        }
+
+        if (sum == d) {
+            count++;
+        }
+    }
+
+    return count;
+}
+
+------------------------------------------------------------------------------
+
+12. https://www.hackerrank.com/challenges/divisible-sum-pairs/problem?isFullScreen=true
+public static int divisibleSumPairs(int n, int k, List<int> ar)
+{
+    int pairCount = 0;
+    
+    for (int i = 0; i < n; i++){
+        for (int j = i + 1; j < n; j++){
+            if ((ar[i] + ar[j]) % k == 0) {
+                pairCount++;
+            }
+        }
+    }
+
+    return pairCount;
+
+}
+
+------------------------------------------------------------------------------
+
+13. https://www.hackerrank.com/challenges/migratory-birds/problem?isFullScreen=true
+public static int migratoryBirds(List<int> arr)
+{
+    int[] count = new int[6]; 
+    
+    foreach (int bird in arr) {
+        count[bird]++;
+    }
+
+    int maxCount = 0;
+    int resultId = 0;
+
+    for (int i = 1; i <= 5; i++) {
+        if (count[i] > maxCount) {
+            maxCount = count[i];
+            resultId = i;
+        }
+    }
+
+    return resultId;
+}
+
+------------------------------------------------------------------------------
