@@ -12,7 +12,7 @@ ROLLBACK;  -- All the above changes are undone
 
 -- 2️⃣ Question:
 -- Suppose Transaction A updates Alice’s balance but does not commit. Can Transaction B read the new balance if the isolation level is set to READ COMMITTED?
-No, with the READ COMMITTED isolation level, Transaction B will only be able to see data that has been committed. Since Transaction A has not committed its changes, Transaction B will read the old value of Alice's balance.
+No, with the READ COMMITTED isolation level, Transaction B will only be able to see data that has been committed. Since Transaction A has not committed its changes, Transaction B will read the old value of Alice balance.
 
 -- Transaction A
 BEGIN;
