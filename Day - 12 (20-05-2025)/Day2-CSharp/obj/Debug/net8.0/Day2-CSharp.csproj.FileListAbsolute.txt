@@ -1,0 +1,14 @@
+C:\Users\VC\source\repos\Day2-CSharp\Day2-CSharp\obj\Debug\net8.0\Day2-CSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VC\source\repos\Day2-CSharp\Day2-CSharp\obj\Debug\net8.0\Day2-CSharp.AssemblyInfoInputs.cache
+C:\Users\VC\source\repos\Day2-CSharp\Day2-CSharp\obj\Debug\net8.0\Day2-CSharp.AssemblyInfo.cs
+C:\Users\VC\source\repos\Day2-CSharp\Day2-CSharp\obj\Debug\net8.0\Day2-CSharp.csproj.CoreCompileInputs.cache
+C:\Users\VC\source\repos\Day2-CSharp\Day2-CSharp\bin\Debug\net8.0\Day2-CSharp.exe
+C:\Users\VC\source\repos\Day2-CSharp\Day2-CSharp\bin\Debug\net8.0\Day2-CSharp.deps.json
+C:\Users\VC\source\repos\Day2-CSharp\Day2-CSharp\bin\Debug\net8.0\Day2-CSharp.runtimeconfig.json
+C:\Users\VC\source\repos\Day2-CSharp\Day2-CSharp\bin\Debug\net8.0\Day2-CSharp.dll
+C:\Users\VC\source\repos\Day2-CSharp\Day2-CSharp\bin\Debug\net8.0\Day2-CSharp.pdb
+C:\Users\VC\source\repos\Day2-CSharp\Day2-CSharp\obj\Debug\net8.0\Day2-CSharp.dll
+C:\Users\VC\source\repos\Day2-CSharp\Day2-CSharp\obj\Debug\net8.0\refint\Day2-CSharp.dll
+C:\Users\VC\source\repos\Day2-CSharp\Day2-CSharp\obj\Debug\net8.0\Day2-CSharp.pdb
+C:\Users\VC\source\repos\Day2-CSharp\Day2-CSharp\obj\Debug\net8.0\Day2-CSharp.genruntimeconfig.cache
+C:\Users\VC\source\repos\Day2-CSharp\Day2-CSharp\obj\Debug\net8.0\ref\Day2-CSharp.dll

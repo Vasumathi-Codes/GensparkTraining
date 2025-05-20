@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\VC\\source\\repos\\Day2-CSharp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4EBCE0E3-6DB9-4B7A-A43D-1A380425D470}|Day2-CSharp\\Day2-CSharp.csproj|c:\\users\\vc\\source\\repos\\day2-csharp\\day2-csharp\\task-01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EBCE0E3-6DB9-4B7A-A43D-1A380425D470}|Day2-CSharp\\Day2-CSharp.csproj|solutionrelative:day2-csharp\\task-01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EBCE0E3-6DB9-4B7A-A43D-1A380425D470}|Day2-CSharp\\Day2-CSharp.csproj|c:\\users\\vc\\source\\repos\\day2-csharp\\day2-csharp\\question.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4EBCE0E3-6DB9-4B7A-A43D-1A380425D470}|Day2-CSharp\\Day2-CSharp.csproj|solutionrelative:day2-csharp\\question.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EBCE0E3-6DB9-4B7A-A43D-1A380425D470}|Day2-CSharp\\Day2-CSharp.csproj|c:\\users\\vc\\source\\repos\\day2-csharp\\day2-csharp\\day2-csharp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4EBCE0E3-6DB9-4B7A-A43D-1A380425D470}|Day2-CSharp\\Day2-CSharp.csproj|solutionrelative:day2-csharp\\day2-csharp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EBCE0E3-6DB9-4B7A-A43D-1A380425D470}|Day2-CSharp\\Day2-CSharp.csproj|c:\\users\\vc\\source\\repos\\day2-csharp\\day2-csharp\\task-02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EBCE0E3-6DB9-4B7A-A43D-1A380425D470}|Day2-CSharp\\Day2-CSharp.csproj|solutionrelative:day2-csharp\\task-02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EBCE0E3-6DB9-4B7A-A43D-1A380425D470}|Day2-CSharp\\Day2-CSharp.csproj|c:\\users\\vc\\source\\repos\\day2-csharp\\day2-csharp\\task-04.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EBCE0E3-6DB9-4B7A-A43D-1A380425D470}|Day2-CSharp\\Day2-CSharp.csproj|solutionrelative:day2-csharp\\task-04.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EBCE0E3-6DB9-4B7A-A43D-1A380425D470}|Day2-CSharp\\Day2-CSharp.csproj|c:\\users\\vc\\source\\repos\\day2-csharp\\day2-csharp\\task-03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EBCE0E3-6DB9-4B7A-A43D-1A380425D470}|Day2-CSharp\\Day2-CSharp.csproj|solutionrelative:day2-csharp\\task-03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EBCE0E3-6DB9-4B7A-A43D-1A380425D470}|Day2-CSharp\\Day2-CSharp.csproj|c:\\users\\vc\\source\\repos\\day2-csharp\\day2-csharp\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EBCE0E3-6DB9-4B7A-A43D-1A380425D470}|Day2-CSharp\\Day2-CSharp.csproj|solutionrelative:day2-csharp\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EBCE0E3-6DB9-4B7A-A43D-1A380425D470}|Day2-CSharp\\Day2-CSharp.csproj|c:\\users\\vc\\source\\repos\\day2-csharp\\day2-csharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EBCE0E3-6DB9-4B7A-A43D-1A380425D470}|Day2-CSharp\\Day2-CSharp.csproj|solutionrelative:day2-csharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Question.txt",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\Day2-CSharp\\Day2-CSharp\\Question.txt",
+              "RelativeDocumentMoniker": "Day2-CSharp\\Question.txt",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\Day2-CSharp\\Day2-CSharp\\Question.txt",
+              "RelativeToolTip": "Day2-CSharp\\Question.txt",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAcwN0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-20T12:04:08.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Task-04.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\Day2-CSharp\\Day2-CSharp\\Task-04.cs",
+              "RelativeDocumentMoniker": "Day2-CSharp\\Task-04.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\Day2-CSharp\\Day2-CSharp\\Task-04.cs",
+              "RelativeToolTip": "Day2-CSharp\\Task-04.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAAAF4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T08:40:17.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Task-02.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\Day2-CSharp\\Day2-CSharp\\Task-02.cs",
+              "RelativeDocumentMoniker": "Day2-CSharp\\Task-02.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\Day2-CSharp\\Day2-CSharp\\Task-02.cs",
+              "RelativeToolTip": "Day2-CSharp\\Task-02.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T06:26:30.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Task-01.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\Day2-CSharp\\Day2-CSharp\\Task-01.cs",
+              "RelativeDocumentMoniker": "Day2-CSharp\\Task-01.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\Day2-CSharp\\Day2-CSharp\\Task-01.cs",
+              "RelativeToolTip": "Day2-CSharp\\Task-01.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T05:21:04.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\Day2-CSharp\\Day2-CSharp\\Program.cs",
+              "RelativeDocumentMoniker": "Day2-CSharp\\Program.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\Day2-CSharp\\Day2-CSharp\\Program.cs",
+              "RelativeToolTip": "Day2-CSharp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T04:36:10.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\Day2-CSharp\\Day2-CSharp\\Employee.cs",
+              "RelativeDocumentMoniker": "Day2-CSharp\\Employee.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\Day2-CSharp\\Day2-CSharp\\Employee.cs",
+              "RelativeToolTip": "Day2-CSharp\\Employee.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAwwFMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T06:47:27.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Day2-CSharp",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\Day2-CSharp\\Day2-CSharp\\Day2-CSharp.csproj",
+              "RelativeDocumentMoniker": "Day2-CSharp\\Day2-CSharp.csproj",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\Day2-CSharp\\Day2-CSharp\\Day2-CSharp.csproj",
+              "RelativeToolTip": "Day2-CSharp\\Day2-CSharp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-20T04:36:44.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Task-03.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\Day2-CSharp\\Day2-CSharp\\Task-03.cs",
+              "RelativeDocumentMoniker": "Day2-CSharp\\Task-03.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\Day2-CSharp\\Day2-CSharp\\Task-03.cs",
+              "RelativeToolTip": "Day2-CSharp\\Task-03.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAAAIwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T06:48:06.048Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
