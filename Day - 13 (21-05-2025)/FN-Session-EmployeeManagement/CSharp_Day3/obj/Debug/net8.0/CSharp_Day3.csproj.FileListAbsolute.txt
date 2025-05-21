@@ -1,0 +1,14 @@
+C:\Users\VC\source\repos\CSharp_Day3\CSharp_Day3\bin\Debug\net8.0\CSharp_Day3.exe
+C:\Users\VC\source\repos\CSharp_Day3\CSharp_Day3\bin\Debug\net8.0\CSharp_Day3.deps.json
+C:\Users\VC\source\repos\CSharp_Day3\CSharp_Day3\bin\Debug\net8.0\CSharp_Day3.runtimeconfig.json
+C:\Users\VC\source\repos\CSharp_Day3\CSharp_Day3\bin\Debug\net8.0\CSharp_Day3.dll
+C:\Users\VC\source\repos\CSharp_Day3\CSharp_Day3\bin\Debug\net8.0\CSharp_Day3.pdb
+C:\Users\VC\source\repos\CSharp_Day3\CSharp_Day3\obj\Debug\net8.0\CSharp_Day3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VC\source\repos\CSharp_Day3\CSharp_Day3\obj\Debug\net8.0\CSharp_Day3.AssemblyInfoInputs.cache
+C:\Users\VC\source\repos\CSharp_Day3\CSharp_Day3\obj\Debug\net8.0\CSharp_Day3.AssemblyInfo.cs
+C:\Users\VC\source\repos\CSharp_Day3\CSharp_Day3\obj\Debug\net8.0\CSharp_Day3.csproj.CoreCompileInputs.cache
+C:\Users\VC\source\repos\CSharp_Day3\CSharp_Day3\obj\Debug\net8.0\CSharp_Day3.dll
+C:\Users\VC\source\repos\CSharp_Day3\CSharp_Day3\obj\Debug\net8.0\refint\CSharp_Day3.dll
+C:\Users\VC\source\repos\CSharp_Day3\CSharp_Day3\obj\Debug\net8.0\CSharp_Day3.pdb
+C:\Users\VC\source\repos\CSharp_Day3\CSharp_Day3\obj\Debug\net8.0\CSharp_Day3.genruntimeconfig.cache
+C:\Users\VC\source\repos\CSharp_Day3\CSharp_Day3\obj\Debug\net8.0\ref\CSharp_Day3.dll
