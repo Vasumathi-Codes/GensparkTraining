@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardiologistAppointmentManager", "CardiologistAppointmentManager\CardiologistAppointmentManager.csproj", "{759F7E01-1CC9-472E-84ED-EC6B2E56EE82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{759F7E01-1CC9-472E-84ED-EC6B2E56EE82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{759F7E01-1CC9-472E-84ED-EC6B2E56EE82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{759F7E01-1CC9-472E-84ED-EC6B2E56EE82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{759F7E01-1CC9-472E-84ED-EC6B2E56EE82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A7056B4-8D6F-4070-BABD-7CD0EA65E184}
+	EndGlobalSection
+EndGlobal

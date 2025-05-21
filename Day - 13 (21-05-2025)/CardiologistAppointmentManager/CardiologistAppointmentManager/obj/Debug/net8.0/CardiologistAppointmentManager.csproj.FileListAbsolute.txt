@@ -1,0 +1,14 @@
+C:\Users\VC\source\repos\CardiologistAppointmentManager\CardiologistAppointmentManager\obj\Debug\net8.0\CardiologistAppointmentManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VC\source\repos\CardiologistAppointmentManager\CardiologistAppointmentManager\obj\Debug\net8.0\CardiologistAppointmentManager.AssemblyInfoInputs.cache
+C:\Users\VC\source\repos\CardiologistAppointmentManager\CardiologistAppointmentManager\obj\Debug\net8.0\CardiologistAppointmentManager.AssemblyInfo.cs
+C:\Users\VC\source\repos\CardiologistAppointmentManager\CardiologistAppointmentManager\obj\Debug\net8.0\CardiologistAppointmentManager.csproj.CoreCompileInputs.cache
+C:\Users\VC\source\repos\CardiologistAppointmentManager\CardiologistAppointmentManager\bin\Debug\net8.0\CardiologistAppointmentManager.exe
+C:\Users\VC\source\repos\CardiologistAppointmentManager\CardiologistAppointmentManager\bin\Debug\net8.0\CardiologistAppointmentManager.deps.json
+C:\Users\VC\source\repos\CardiologistAppointmentManager\CardiologistAppointmentManager\bin\Debug\net8.0\CardiologistAppointmentManager.runtimeconfig.json
+C:\Users\VC\source\repos\CardiologistAppointmentManager\CardiologistAppointmentManager\bin\Debug\net8.0\CardiologistAppointmentManager.dll
+C:\Users\VC\source\repos\CardiologistAppointmentManager\CardiologistAppointmentManager\bin\Debug\net8.0\CardiologistAppointmentManager.pdb
+C:\Users\VC\source\repos\CardiologistAppointmentManager\CardiologistAppointmentManager\obj\Debug\net8.0\CardiologistAppointmentManager.dll
+C:\Users\VC\source\repos\CardiologistAppointmentManager\CardiologistAppointmentManager\obj\Debug\net8.0\refint\CardiologistAppointmentManager.dll
+C:\Users\VC\source\repos\CardiologistAppointmentManager\CardiologistAppointmentManager\obj\Debug\net8.0\CardiologistAppointmentManager.pdb
+C:\Users\VC\source\repos\CardiologistAppointmentManager\CardiologistAppointmentManager\obj\Debug\net8.0\CardiologistAppointmentManager.genruntimeconfig.cache
+C:\Users\VC\source\repos\CardiologistAppointmentManager\CardiologistAppointmentManager\obj\Debug\net8.0\ref\CardiologistAppointmentManager.dll

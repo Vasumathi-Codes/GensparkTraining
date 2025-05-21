@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\VC\\source\\repos\\CardiologistAppointmentManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{759F7E01-1CC9-472E-84ED-EC6B2E56EE82}|CardiologistAppointmentManager\\CardiologistAppointmentManager.csproj|c:\\users\\vc\\source\\repos\\cardiologistappointmentmanager\\cardiologistappointmentmanager\\manageappointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{759F7E01-1CC9-472E-84ED-EC6B2E56EE82}|CardiologistAppointmentManager\\CardiologistAppointmentManager.csproj|solutionrelative:cardiologistappointmentmanager\\manageappointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{759F7E01-1CC9-472E-84ED-EC6B2E56EE82}|CardiologistAppointmentManager\\CardiologistAppointmentManager.csproj|c:\\users\\vc\\source\\repos\\cardiologistappointmentmanager\\cardiologistappointmentmanager\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{759F7E01-1CC9-472E-84ED-EC6B2E56EE82}|CardiologistAppointmentManager\\CardiologistAppointmentManager.csproj|solutionrelative:cardiologistappointmentmanager\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{759F7E01-1CC9-472E-84ED-EC6B2E56EE82}|CardiologistAppointmentManager\\CardiologistAppointmentManager.csproj|c:\\users\\vc\\source\\repos\\cardiologistappointmentmanager\\cardiologistappointmentmanager\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{759F7E01-1CC9-472E-84ED-EC6B2E56EE82}|CardiologistAppointmentManager\\CardiologistAppointmentManager.csproj|solutionrelative:cardiologistappointmentmanager\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{759F7E01-1CC9-472E-84ED-EC6B2E56EE82}|CardiologistAppointmentManager\\CardiologistAppointmentManager.csproj|c:\\users\\vc\\source\\repos\\cardiologistappointmentmanager\\cardiologistappointmentmanager\\repositories\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{759F7E01-1CC9-472E-84ED-EC6B2E56EE82}|CardiologistAppointmentManager\\CardiologistAppointmentManager.csproj|solutionrelative:cardiologistappointmentmanager\\repositories\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{759F7E01-1CC9-472E-84ED-EC6B2E56EE82}|CardiologistAppointmentManager\\CardiologistAppointmentManager.csproj|c:\\users\\vc\\source\\repos\\cardiologistappointmentmanager\\cardiologistappointmentmanager\\models\\searchmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{759F7E01-1CC9-472E-84ED-EC6B2E56EE82}|CardiologistAppointmentManager\\CardiologistAppointmentManager.csproj|solutionrelative:cardiologistappointmentmanager\\models\\searchmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{759F7E01-1CC9-472E-84ED-EC6B2E56EE82}|CardiologistAppointmentManager\\CardiologistAppointmentManager.csproj|c:\\users\\vc\\source\\repos\\cardiologistappointmentmanager\\cardiologistappointmentmanager\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{759F7E01-1CC9-472E-84ED-EC6B2E56EE82}|CardiologistAppointmentManager\\CardiologistAppointmentManager.csproj|solutionrelative:cardiologistappointmentmanager\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{759F7E01-1CC9-472E-84ED-EC6B2E56EE82}|CardiologistAppointmentManager\\CardiologistAppointmentManager.csproj|c:\\users\\vc\\source\\repos\\cardiologistappointmentmanager\\cardiologistappointmentmanager\\helpers\\inputhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{759F7E01-1CC9-472E-84ED-EC6B2E56EE82}|CardiologistAppointmentManager\\CardiologistAppointmentManager.csproj|solutionrelative:cardiologistappointmentmanager\\helpers\\inputhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{759F7E01-1CC9-472E-84ED-EC6B2E56EE82}|CardiologistAppointmentManager\\CardiologistAppointmentManager.csproj|c:\\users\\vc\\source\\repos\\cardiologistappointmentmanager\\cardiologistappointmentmanager\\cardiologistappointmentmanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{759F7E01-1CC9-472E-84ED-EC6B2E56EE82}|CardiologistAppointmentManager\\CardiologistAppointmentManager.csproj|solutionrelative:cardiologistappointmentmanager\\cardiologistappointmentmanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{759F7E01-1CC9-472E-84ED-EC6B2E56EE82}|CardiologistAppointmentManager\\CardiologistAppointmentManager.csproj|c:\\users\\vc\\source\\repos\\cardiologistappointmentmanager\\cardiologistappointmentmanager\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{759F7E01-1CC9-472E-84ED-EC6B2E56EE82}|CardiologistAppointmentManager\\CardiologistAppointmentManager.csproj|solutionrelative:cardiologistappointmentmanager\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{759F7E01-1CC9-472E-84ED-EC6B2E56EE82}|CardiologistAppointmentManager\\CardiologistAppointmentManager.csproj|c:\\users\\vc\\source\\repos\\cardiologistappointmentmanager\\cardiologistappointmentmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{759F7E01-1CC9-472E-84ED-EC6B2E56EE82}|CardiologistAppointmentManager\\CardiologistAppointmentManager.csproj|solutionrelative:cardiologistappointmentmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{759F7E01-1CC9-472E-84ED-EC6B2E56EE82}|CardiologistAppointmentManager\\CardiologistAppointmentManager.csproj|c:\\users\\vc\\source\\repos\\cardiologistappointmentmanager\\cardiologistappointmentmanager\\exceptions\\duplicateentityexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{759F7E01-1CC9-472E-84ED-EC6B2E56EE82}|CardiologistAppointmentManager\\CardiologistAppointmentManager.csproj|solutionrelative:cardiologistappointmentmanager\\exceptions\\duplicateentityexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{759F7E01-1CC9-472E-84ED-EC6B2E56EE82}|CardiologistAppointmentManager\\CardiologistAppointmentManager.csproj|c:\\users\\vc\\source\\repos\\cardiologistappointmentmanager\\cardiologistappointmentmanager\\exceptions\\collectionemptyexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{759F7E01-1CC9-472E-84ED-EC6B2E56EE82}|CardiologistAppointmentManager\\CardiologistAppointmentManager.csproj|solutionrelative:cardiologistappointmentmanager\\exceptions\\collectionemptyexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{759F7E01-1CC9-472E-84ED-EC6B2E56EE82}|CardiologistAppointmentManager\\CardiologistAppointmentManager.csproj|c:\\users\\vc\\source\\repos\\cardiologistappointmentmanager\\cardiologistappointmentmanager\\interfaces\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{759F7E01-1CC9-472E-84ED-EC6B2E56EE82}|CardiologistAppointmentManager\\CardiologistAppointmentManager.csproj|solutionrelative:cardiologistappointmentmanager\\interfaces\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppointmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\CardiologistAppointmentManager\\CardiologistAppointmentManager\\Repositories\\AppointmentRepository.cs",
+              "RelativeDocumentMoniker": "CardiologistAppointmentManager\\Repositories\\AppointmentRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\CardiologistAppointmentManager\\CardiologistAppointmentManager\\Repositories\\AppointmentRepository.cs",
+              "RelativeToolTip": "CardiologistAppointmentManager\\Repositories\\AppointmentRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T09:13:57.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SearchModel.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\CardiologistAppointmentManager\\CardiologistAppointmentManager\\Models\\SearchModel.cs",
+              "RelativeDocumentMoniker": "CardiologistAppointmentManager\\Models\\SearchModel.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\CardiologistAppointmentManager\\CardiologistAppointmentManager\\Models\\SearchModel.cs",
+              "RelativeToolTip": "CardiologistAppointmentManager\\Models\\SearchModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T09:05:59.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\CardiologistAppointmentManager\\CardiologistAppointmentManager\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "CardiologistAppointmentManager\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\CardiologistAppointmentManager\\CardiologistAppointmentManager\\Repositories\\Repository.cs",
+              "RelativeToolTip": "CardiologistAppointmentManager\\Repositories\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T08:56:03.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppointmentService.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\CardiologistAppointmentManager\\CardiologistAppointmentManager\\Services\\AppointmentService.cs",
+              "RelativeDocumentMoniker": "CardiologistAppointmentManager\\Services\\AppointmentService.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\CardiologistAppointmentManager\\CardiologistAppointmentManager\\Services\\AppointmentService.cs",
+              "RelativeToolTip": "CardiologistAppointmentManager\\Services\\AppointmentService.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAqwCgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T09:09:18.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ManageAppointments.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\CardiologistAppointmentManager\\CardiologistAppointmentManager\\ManageAppointments.cs",
+              "RelativeDocumentMoniker": "CardiologistAppointmentManager\\ManageAppointments.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\CardiologistAppointmentManager\\CardiologistAppointmentManager\\ManageAppointments.cs",
+              "RelativeToolTip": "CardiologistAppointmentManager\\ManageAppointments.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAEoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T11:21:01.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\CardiologistAppointmentManager\\CardiologistAppointmentManager\\Models\\Appointment.cs",
+              "RelativeDocumentMoniker": "CardiologistAppointmentManager\\Models\\Appointment.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\CardiologistAppointmentManager\\CardiologistAppointmentManager\\Models\\Appointment.cs",
+              "RelativeToolTip": "CardiologistAppointmentManager\\Models\\Appointment.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA6wCcAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T08:47:55.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InputHelper.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\CardiologistAppointmentManager\\CardiologistAppointmentManager\\Helpers\\InputHelper.cs",
+              "RelativeDocumentMoniker": "CardiologistAppointmentManager\\Helpers\\InputHelper.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\CardiologistAppointmentManager\\CardiologistAppointmentManager\\Helpers\\InputHelper.cs",
+              "RelativeToolTip": "CardiologistAppointmentManager\\Helpers\\InputHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:18:06.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CardiologistAppointmentManager",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\CardiologistAppointmentManager\\CardiologistAppointmentManager\\CardiologistAppointmentManager.csproj",
+              "RelativeDocumentMoniker": "CardiologistAppointmentManager\\CardiologistAppointmentManager.csproj",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\CardiologistAppointmentManager\\CardiologistAppointmentManager\\CardiologistAppointmentManager.csproj",
+              "RelativeToolTip": "CardiologistAppointmentManager\\CardiologistAppointmentManager.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-21T08:46:30.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\CardiologistAppointmentManager\\CardiologistAppointmentManager\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "CardiologistAppointmentManager\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\CardiologistAppointmentManager\\CardiologistAppointmentManager\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "CardiologistAppointmentManager\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T08:55:13.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\CardiologistAppointmentManager\\CardiologistAppointmentManager\\Program.cs",
+              "RelativeDocumentMoniker": "CardiologistAppointmentManager\\Program.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\CardiologistAppointmentManager\\CardiologistAppointmentManager\\Program.cs",
+              "RelativeToolTip": "CardiologistAppointmentManager\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T08:46:20.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DuplicateEntityException.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\CardiologistAppointmentManager\\CardiologistAppointmentManager\\Exceptions\\DuplicateEntityException.cs",
+              "RelativeDocumentMoniker": "CardiologistAppointmentManager\\Exceptions\\DuplicateEntityException.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\CardiologistAppointmentManager\\CardiologistAppointmentManager\\Exceptions\\DuplicateEntityException.cs",
+              "RelativeToolTip": "CardiologistAppointmentManager\\Exceptions\\DuplicateEntityException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T08:57:21.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CollectionEmptyException.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\CardiologistAppointmentManager\\CardiologistAppointmentManager\\Exceptions\\CollectionEmptyException.cs",
+              "RelativeDocumentMoniker": "CardiologistAppointmentManager\\Exceptions\\CollectionEmptyException.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\CardiologistAppointmentManager\\CardiologistAppointmentManager\\Exceptions\\CollectionEmptyException.cs",
+              "RelativeToolTip": "CardiologistAppointmentManager\\Exceptions\\CollectionEmptyException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T08:59:38.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IAppointmentService.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\CardiologistAppointmentManager\\CardiologistAppointmentManager\\Interfaces\\IAppointmentService.cs",
+              "RelativeDocumentMoniker": "CardiologistAppointmentManager\\Interfaces\\IAppointmentService.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\CardiologistAppointmentManager\\CardiologistAppointmentManager\\Interfaces\\IAppointmentService.cs",
+              "RelativeToolTip": "CardiologistAppointmentManager\\Interfaces\\IAppointmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T09:03:25.63Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
