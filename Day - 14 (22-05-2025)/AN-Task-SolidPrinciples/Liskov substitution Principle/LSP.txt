@@ -1,0 +1,15 @@
+﻿3. Liskov Substitution Principle (LSP)
+
+Definition:
+Objects of a superclass should be replaceable with objects of its subclasses without breaking the program.
+
+Why it matters:
+If subclasses behave differently in ways that the parent class does not guarantee, then substituting them can cause unexpected behavior or errors.
+
+In my code:
+Bad Example:
+A Bird class has a Fly method. A Penguin class inherits from Bird but can’t fly, so it throws an exception on Fly(), violating LSP.
+
+Good Example:
+Separate flying behavior into a distinct interface (e.g., IFlyable). Birds that can fly implement it. Penguin does not implement flying, so it cannot be substituted where flying is expected.
+

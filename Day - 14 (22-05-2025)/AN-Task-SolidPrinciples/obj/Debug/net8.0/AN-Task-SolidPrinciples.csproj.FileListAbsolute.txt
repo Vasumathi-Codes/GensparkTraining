@@ -1,0 +1,14 @@
+C:\Users\VC\source\repos\AN-Task-SolidPrinciples\AN-Task-SolidPrinciples\obj\Debug\net8.0\AN-Task-SolidPrinciples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VC\source\repos\AN-Task-SolidPrinciples\AN-Task-SolidPrinciples\obj\Debug\net8.0\AN-Task-SolidPrinciples.AssemblyInfoInputs.cache
+C:\Users\VC\source\repos\AN-Task-SolidPrinciples\AN-Task-SolidPrinciples\obj\Debug\net8.0\AN-Task-SolidPrinciples.AssemblyInfo.cs
+C:\Users\VC\source\repos\AN-Task-SolidPrinciples\AN-Task-SolidPrinciples\obj\Debug\net8.0\AN-Task-SolidPrinciples.csproj.CoreCompileInputs.cache
+C:\Users\VC\source\repos\AN-Task-SolidPrinciples\AN-Task-SolidPrinciples\bin\Debug\net8.0\AN-Task-SolidPrinciples.exe
+C:\Users\VC\source\repos\AN-Task-SolidPrinciples\AN-Task-SolidPrinciples\bin\Debug\net8.0\AN-Task-SolidPrinciples.deps.json
+C:\Users\VC\source\repos\AN-Task-SolidPrinciples\AN-Task-SolidPrinciples\bin\Debug\net8.0\AN-Task-SolidPrinciples.runtimeconfig.json
+C:\Users\VC\source\repos\AN-Task-SolidPrinciples\AN-Task-SolidPrinciples\bin\Debug\net8.0\AN-Task-SolidPrinciples.dll
+C:\Users\VC\source\repos\AN-Task-SolidPrinciples\AN-Task-SolidPrinciples\bin\Debug\net8.0\AN-Task-SolidPrinciples.pdb
+C:\Users\VC\source\repos\AN-Task-SolidPrinciples\AN-Task-SolidPrinciples\obj\Debug\net8.0\AN-Task-SolidPrinciples.dll
+C:\Users\VC\source\repos\AN-Task-SolidPrinciples\AN-Task-SolidPrinciples\obj\Debug\net8.0\refint\AN-Task-SolidPrinciples.dll
+C:\Users\VC\source\repos\AN-Task-SolidPrinciples\AN-Task-SolidPrinciples\obj\Debug\net8.0\AN-Task-SolidPrinciples.pdb
+C:\Users\VC\source\repos\AN-Task-SolidPrinciples\AN-Task-SolidPrinciples\obj\Debug\net8.0\AN-Task-SolidPrinciples.genruntimeconfig.cache
+C:\Users\VC\source\repos\AN-Task-SolidPrinciples\AN-Task-SolidPrinciples\obj\Debug\net8.0\ref\AN-Task-SolidPrinciples.dll

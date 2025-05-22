@@ -1,0 +1,14 @@
+﻿2. Open/Closed Principle (OCP)
+
+Definition:
+Software entities (classes, modules, functions) should be open for extension but closed for modification.
+
+Why it matters:
+If every time you add a new feature you modify existing code, you risk introducing bugs and breaking existing functionality. Instead, you should add new code to extend behavior.
+
+In my code:
+Bad Example:
+A method uses conditional statements (if-else or switch) to check types and calculate fees. Adding new types requires modifying existing code.
+
+Good Example:
+Create an interface for calculating fees, and let each membership type have its own class that does this. When you want to add a new membership, just add a new class without changing the old code.

@@ -1,0 +1,309 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|c:\\users\\vc\\source\\repos\\an-task-solidprinciples\\an-task-solidprinciples\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|solutionrelative:an-task-solidprinciples\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|c:\\users\\vc\\source\\repos\\an-task-solidprinciples\\an-task-solidprinciples\\single responsibility principle\\srp.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|solutionrelative:an-task-solidprinciples\\single responsibility principle\\srp.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|c:\\users\\vc\\source\\repos\\an-task-solidprinciples\\an-task-solidprinciples\\dependency inversion principle\\dip.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|solutionrelative:an-task-solidprinciples\\dependency inversion principle\\dip.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|c:\\users\\vc\\source\\repos\\an-task-solidprinciples\\an-task-solidprinciples\\dependency inversion principle\\dip-badexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|solutionrelative:an-task-solidprinciples\\dependency inversion principle\\dip-badexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|c:\\users\\vc\\source\\repos\\an-task-solidprinciples\\an-task-solidprinciples\\liskov substitution principle\\lsp.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|solutionrelative:an-task-solidprinciples\\liskov substitution principle\\lsp.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|c:\\users\\vc\\source\\repos\\an-task-solidprinciples\\an-task-solidprinciples\\interface segregation principle\\isp.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|solutionrelative:an-task-solidprinciples\\interface segregation principle\\isp.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|c:\\users\\vc\\source\\repos\\an-task-solidprinciples\\an-task-solidprinciples\\open-closed principle\\ocp.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|solutionrelative:an-task-solidprinciples\\open-closed principle\\ocp.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|c:\\users\\vc\\source\\repos\\an-task-solidprinciples\\an-task-solidprinciples\\open-closed principle\\ocp-badexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|solutionrelative:an-task-solidprinciples\\open-closed principle\\ocp-badexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|c:\\users\\vc\\source\\repos\\an-task-solidprinciples\\an-task-solidprinciples\\open-closed principle\\ocp-goodpractice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|solutionrelative:an-task-solidprinciples\\open-closed principle\\ocp-goodpractice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|c:\\users\\vc\\source\\repos\\an-task-solidprinciples\\an-task-solidprinciples\\liskov substitution principle\\lsp-badexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|solutionrelative:an-task-solidprinciples\\liskov substitution principle\\lsp-badexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|c:\\users\\vc\\source\\repos\\an-task-solidprinciples\\an-task-solidprinciples\\interface segregation principle\\isp-goodpractice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|solutionrelative:an-task-solidprinciples\\interface segregation principle\\isp-goodpractice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|c:\\users\\vc\\source\\repos\\an-task-solidprinciples\\an-task-solidprinciples\\liskov substitution principle\\lsp-goodpractice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|solutionrelative:an-task-solidprinciples\\liskov substitution principle\\lsp-goodpractice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|c:\\users\\vc\\source\\repos\\an-task-solidprinciples\\an-task-solidprinciples\\single responsibility principle\\srp-goodpractice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|solutionrelative:an-task-solidprinciples\\single responsibility principle\\srp-goodpractice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|c:\\users\\vc\\source\\repos\\an-task-solidprinciples\\an-task-solidprinciples\\single responsibility principle\\srp-badexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|solutionrelative:an-task-solidprinciples\\single responsibility principle\\srp-badexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|c:\\users\\vc\\source\\repos\\an-task-solidprinciples\\an-task-solidprinciples\\dependency inversion principle\\dip-goodpractice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|solutionrelative:an-task-solidprinciples\\dependency inversion principle\\dip-goodpractice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|c:\\users\\vc\\source\\repos\\an-task-solidprinciples\\an-task-solidprinciples\\interface segregation principle\\isp-badexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|solutionrelative:an-task-solidprinciples\\interface segregation principle\\isp-badexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|c:\\users\\vc\\source\\repos\\an-task-solidprinciples\\an-task-solidprinciples\\an-task-solidprinciples.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C0518DF4-287E-4F2E-B049-DB7A95E196ED}|AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj|solutionrelative:an-task-solidprinciples\\an-task-solidprinciples.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DIP.txt",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\Dependency Inversion Principle\\DIP.txt",
+              "RelativeDocumentMoniker": "AN-Task-SolidPrinciples\\Dependency Inversion Principle\\DIP.txt",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\Dependency Inversion Principle\\DIP.txt",
+              "RelativeToolTip": "AN-Task-SolidPrinciples\\Dependency Inversion Principle\\DIP.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-22T12:45:55.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OCP.txt",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\Open-closed Principle\\OCP.txt",
+              "RelativeDocumentMoniker": "AN-Task-SolidPrinciples\\Open-closed Principle\\OCP.txt",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\Open-closed Principle\\OCP.txt",
+              "RelativeToolTip": "AN-Task-SolidPrinciples\\Open-closed Principle\\OCP.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-22T12:40:21.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SRP.txt",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\Single Responsibility Principle\\SRP.txt",
+              "RelativeDocumentMoniker": "AN-Task-SolidPrinciples\\Single Responsibility Principle\\SRP.txt",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\Single Responsibility Principle\\SRP.txt",
+              "RelativeToolTip": "AN-Task-SolidPrinciples\\Single Responsibility Principle\\SRP.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-22T12:38:17.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OCP-BadExample.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\Open-closed Principle\\OCP-BadExample.cs",
+              "RelativeDocumentMoniker": "AN-Task-SolidPrinciples\\Open-closed Principle\\OCP-BadExample.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\Open-closed Principle\\OCP-BadExample.cs",
+              "RelativeToolTip": "AN-Task-SolidPrinciples\\Open-closed Principle\\OCP-BadExample.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T09:00:20.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DIP-BadExample.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\Dependency Inversion Principle\\DIP-BadExample.cs",
+              "RelativeDocumentMoniker": "AN-Task-SolidPrinciples\\Dependency Inversion Principle\\DIP-BadExample.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\Dependency Inversion Principle\\DIP-BadExample.cs",
+              "RelativeToolTip": "AN-Task-SolidPrinciples\\Dependency Inversion Principle\\DIP-BadExample.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T09:16:22.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OCP-GoodPractice.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\Open-closed Principle\\OCP-GoodPractice.cs",
+              "RelativeDocumentMoniker": "AN-Task-SolidPrinciples\\Open-closed Principle\\OCP-GoodPractice.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\Open-closed Principle\\OCP-GoodPractice.cs",
+              "RelativeToolTip": "AN-Task-SolidPrinciples\\Open-closed Principle\\OCP-GoodPractice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T09:00:32.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\Program.cs",
+              "RelativeDocumentMoniker": "AN-Task-SolidPrinciples\\Program.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\Program.cs",
+              "RelativeToolTip": "AN-Task-SolidPrinciples\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAApwBkAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T08:44:54.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LSP.txt",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\Liskov substitution Principle\\LSP.txt",
+              "RelativeDocumentMoniker": "AN-Task-SolidPrinciples\\Liskov substitution Principle\\LSP.txt",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\Liskov substitution Principle\\LSP.txt",
+              "RelativeToolTip": "AN-Task-SolidPrinciples\\Liskov substitution Principle\\LSP.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-22T12:42:43.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ISP.txt",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\Interface Segregation Principle\\ISP.txt",
+              "RelativeDocumentMoniker": "AN-Task-SolidPrinciples\\Interface Segregation Principle\\ISP.txt",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\Interface Segregation Principle\\ISP.txt",
+              "RelativeToolTip": "AN-Task-SolidPrinciples\\Interface Segregation Principle\\ISP.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-22T12:43:52.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LSP-GoodPractice.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\Liskov substitution Principle\\LSP-GoodPractice.cs",
+              "RelativeDocumentMoniker": "AN-Task-SolidPrinciples\\Liskov substitution Principle\\LSP-GoodPractice.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\Liskov substitution Principle\\LSP-GoodPractice.cs",
+              "RelativeToolTip": "AN-Task-SolidPrinciples\\Liskov substitution Principle\\LSP-GoodPractice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T09:09:20.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LSP-BadExample.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\Liskov substitution Principle\\LSP-BadExample.cs",
+              "RelativeDocumentMoniker": "AN-Task-SolidPrinciples\\Liskov substitution Principle\\LSP-BadExample.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\Liskov substitution Principle\\LSP-BadExample.cs",
+              "RelativeToolTip": "AN-Task-SolidPrinciples\\Liskov substitution Principle\\LSP-BadExample.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T09:08:37.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ISP-GoodPractice.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\Interface Segregation Principle\\ISP-GoodPractice.cs",
+              "RelativeDocumentMoniker": "AN-Task-SolidPrinciples\\Interface Segregation Principle\\ISP-GoodPractice.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\Interface Segregation Principle\\ISP-GoodPractice.cs",
+              "RelativeToolTip": "AN-Task-SolidPrinciples\\Interface Segregation Principle\\ISP-GoodPractice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T09:15:04.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SRP-GoodPractice.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\Single Responsibility Principle\\SRP-GoodPractice.cs",
+              "RelativeDocumentMoniker": "AN-Task-SolidPrinciples\\Single Responsibility Principle\\SRP-GoodPractice.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\Single Responsibility Principle\\SRP-GoodPractice.cs",
+              "RelativeToolTip": "AN-Task-SolidPrinciples\\Single Responsibility Principle\\SRP-GoodPractice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T08:47:02.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SRP-BadExample.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\Single Responsibility Principle\\SRP-BadExample.cs",
+              "RelativeDocumentMoniker": "AN-Task-SolidPrinciples\\Single Responsibility Principle\\SRP-BadExample.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\Single Responsibility Principle\\SRP-BadExample.cs",
+              "RelativeToolTip": "AN-Task-SolidPrinciples\\Single Responsibility Principle\\SRP-BadExample.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T08:46:48.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DIP-GoodPractice.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\Dependency Inversion Principle\\DIP-GoodPractice.cs",
+              "RelativeDocumentMoniker": "AN-Task-SolidPrinciples\\Dependency Inversion Principle\\DIP-GoodPractice.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\Dependency Inversion Principle\\DIP-GoodPractice.cs",
+              "RelativeToolTip": "AN-Task-SolidPrinciples\\Dependency Inversion Principle\\DIP-GoodPractice.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAYwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T09:16:34.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ISP-BadExample.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\Interface Segregation Principle\\ISP-BadExample.cs",
+              "RelativeDocumentMoniker": "AN-Task-SolidPrinciples\\Interface Segregation Principle\\ISP-BadExample.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\Interface Segregation Principle\\ISP-BadExample.cs",
+              "RelativeToolTip": "AN-Task-SolidPrinciples\\Interface Segregation Principle\\ISP-BadExample.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAzwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T09:13:57.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AN-Task-SolidPrinciples",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj",
+              "RelativeDocumentMoniker": "AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj",
+              "RelativeToolTip": "AN-Task-SolidPrinciples\\AN-Task-SolidPrinciples.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-22T08:45:01.049Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

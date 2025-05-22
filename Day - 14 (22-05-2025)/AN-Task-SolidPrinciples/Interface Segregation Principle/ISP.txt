@@ -1,0 +1,14 @@
+﻿4. Interface Segregation Principle (ISP)
+
+Definition:
+Don’t force classes to implement methods they don’t use. Make small, focused interfaces instead of big, general ones.
+
+Why it matters:
+If a class implements a large interface but only supports some operations, it has to implement or stub unnecessary methods, leading to poor design and potential runtime errors.
+
+In our code:
+Bad Example:
+A IMultiFunctionDevice interface includes Print, Scan, and Fax. A simple printer must implement all, but scanning and faxing are unsupported and throw exceptions.
+
+Good Example:
+Split interfaces into smaller ones (IPrinter, IScanner, IFax). Classes implement only the interfaces they actually support.

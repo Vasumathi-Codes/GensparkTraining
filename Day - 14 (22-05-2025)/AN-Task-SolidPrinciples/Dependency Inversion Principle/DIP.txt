@@ -1,0 +1,15 @@
+﻿5. Dependency Inversion Principle (DIP)
+Definition:
+High-level modules should not depend on low-level modules. Both should depend on abstractions (e.g., interfaces). Abstractions should not depend on details; details should depend on abstractions.
+
+Why it matters:
+Hardcoding dependencies tightly couples components, making code hard to test or extend.
+
+In my code:
+Bad Example:
+A service class directly creates and uses a concrete database class, making it hard to switch databases or test.
+
+Good Example:
+Define an interface (IDatabase). Both MySQL and MongoDB implementations implement this interface. 
+The service class depends only on the interface and receives concrete implementations via constructor injection. 
+This enables easy swapping and testing.

@@ -1,0 +1,15 @@
+﻿1. Single Responsibility Principle (SRP)
+
+Definition:
+A class should have only one reason to change. This means every class should have a single responsibility or a single job.
+
+Why it matters:
+When a class handles multiple responsibilities, it becomes harder to maintain, test, and extend. Changing one responsibility can break others unintentionally.
+
+
+In my code : 
+Bad Example:
+A single class handles user validation, saving to database, sending email, and logging. Changes to email format or logging affect the user registration code.
+
+Good Example:
+Separate classes handle validation, database operations, email sending, and logging independently. The UserService class coordinates these but does not do all the work itself.
