@@ -1,0 +1,179 @@
+// ------------------------------
+// Delegate Examples in C#
+// ------------------------------
+
+namespace WholeApplication
+{
+    internal class Program
+    {
+        // Custom delegate declaration
+        public delegate void MyDelegate(int num1, int num2);
+
+        // Method to add two numbers
+        public void Add(int n1, int n2)
+        {
+            int sum = n1 + n2;
+            Console.WriteLine($"The sum of {n1} and {n2} is {sum}");
+        }
+
+        // Method to multiply two numbers
+        public void Product(int n1, int n2)
+        {
+            int prod = n1 * n2;
+            Console.WriteLine($"The product of {n1} and {n2} is {prod}");
+        }
+
+        // Constructor demonstrating delegate usage
+        Program()
+        {
+            // Initialize delegate with Add method
+            MyDelegate del = new MyDelegate(Add);
+
+            // Multicast delegate - add Product method to invocation list
+            del += Product;
+
+            // Invoke delegate methods with parameters 10 and 20
+            del(10, 20);
+        }
+
+        static void Main(string[] args)
+        {
+            // Instantiate Program to execute constructor code
+            new Program();
+        }
+    }
+}
+
+
+// -----------------------------------------
+// Using built-in Action delegate with lambdas
+// -----------------------------------------
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace WholeApplication
+{
+    internal class Program
+    {
+        // Method to add two numbers
+        public void Add(int n1, int n2)
+        {
+            int sum = n1 + n2;
+            Console.WriteLine($"The sum of {n1} and {n2} is {sum}");
+        }
+
+        // Method to multiply two numbers
+        public void Product(int n1, int n2)
+        {
+            int prod = n1 * n2;
+            Console.WriteLine($"The product of {n1} and {n2} is {prod}");
+        }
+
+        Program()
+        {
+            // Using built-in Action delegate for methods with void return and two int parameters
+            Action<int, int> del = Add;
+            del += Product;
+
+            // Adding a lambda expression for division
+            del += (int n1, int n2) => 
+                Console.WriteLine($"The division result of {n1} and {n2} is {n1 / n2}");
+
+            // Invoke delegate list with values 100 and 20
+            del(100, 20);
+        }
+
+        static void Main(string[] args)
+        {
+            // Run the example
+            new Program();
+        }
+    }
+}
+
+
+// ---------------------------------------------
+// Working with List<Employee> and LINQ examples
+// ---------------------------------------------
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace WholeApplication
+{
+    internal class Program
+    {
+        // Sample Employee list
+        List<Employee> employees = new List<Employee>()
+        {
+            new Employee(101, 30, "John Doe", 50000),
+            new Employee(102, 25, "Jane Smith", 60000),
+            new Employee(103, 35, "Sam Brown", 70000)
+        };
+
+        // Find employee by Id using Predicate<T>
+        void FindEmployee()
+        {
+            int empId = 102;
+
+            // Predicate to match employee Id
+            Predicate<Employee> predicate = e => e.Id == empId;
+
+            // Find employee matching predicate
+            Employee? emp = employees.Find(predicate);
+
+            Console.WriteLine(emp?.ToString() ?? "No such employee");
+        }
+
+        // Sort employees by Name using LINQ OrderBy
+        void SortEmployee()
+        {
+            var sortedEmployees = employees.OrderBy(e => e.Name);
+
+            foreach (var emp in sortedEmployees)
+            {
+                Console.WriteLine(emp.ToString());
+            }
+        }
+
+        static void Main(string[] args)
+        {
+            Program program = new Program();
+
+            // Demonstrate FindEmployee method
+            program.FindEmployee();
+
+            // Demonstrate SortEmployee method
+            program.SortEmployee();
+        }
+    }
+}
+
+
+// -----------------------------------
+// String extension method example
+// -----------------------------------
+
+using System;
+
+namespace WholeApplication.Misc
+{
+    public static class ExtensionFunctions
+    {
+        // Extension method to validate string
+        public static bool StringValidationCheck(this string str)
+        {
+            // Check if string starts with 's' (case-insensitive) and length is exactly 6
+            if (str.Substring(0, 1).ToLower() == "s" && str.Length == 6)
+                return true;
+            return false;
+        }
+    }
+}
+
+// Usage example in Program.Main:
+// string str1 = "Studen";
+// Console.WriteLine(str1.StringValidationCheck()); // Outputs: True or False
