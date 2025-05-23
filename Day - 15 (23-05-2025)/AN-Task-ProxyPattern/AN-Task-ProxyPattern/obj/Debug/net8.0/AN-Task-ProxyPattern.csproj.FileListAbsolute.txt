@@ -1,0 +1,14 @@
+C:\Users\VC\source\repos\AN-Task-ProxyPattern\AN-Task-ProxyPattern\obj\Debug\net8.0\AN-Task-ProxyPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VC\source\repos\AN-Task-ProxyPattern\AN-Task-ProxyPattern\obj\Debug\net8.0\AN-Task-ProxyPattern.AssemblyInfoInputs.cache
+C:\Users\VC\source\repos\AN-Task-ProxyPattern\AN-Task-ProxyPattern\obj\Debug\net8.0\AN-Task-ProxyPattern.AssemblyInfo.cs
+C:\Users\VC\source\repos\AN-Task-ProxyPattern\AN-Task-ProxyPattern\obj\Debug\net8.0\AN-Task-ProxyPattern.csproj.CoreCompileInputs.cache
+C:\Users\VC\source\repos\AN-Task-ProxyPattern\AN-Task-ProxyPattern\bin\Debug\net8.0\AN-Task-ProxyPattern.exe
+C:\Users\VC\source\repos\AN-Task-ProxyPattern\AN-Task-ProxyPattern\bin\Debug\net8.0\AN-Task-ProxyPattern.deps.json
+C:\Users\VC\source\repos\AN-Task-ProxyPattern\AN-Task-ProxyPattern\bin\Debug\net8.0\AN-Task-ProxyPattern.runtimeconfig.json
+C:\Users\VC\source\repos\AN-Task-ProxyPattern\AN-Task-ProxyPattern\bin\Debug\net8.0\AN-Task-ProxyPattern.dll
+C:\Users\VC\source\repos\AN-Task-ProxyPattern\AN-Task-ProxyPattern\bin\Debug\net8.0\AN-Task-ProxyPattern.pdb
+C:\Users\VC\source\repos\AN-Task-ProxyPattern\AN-Task-ProxyPattern\obj\Debug\net8.0\AN-Task-ProxyPattern.dll
+C:\Users\VC\source\repos\AN-Task-ProxyPattern\AN-Task-ProxyPattern\obj\Debug\net8.0\refint\AN-Task-ProxyPattern.dll
+C:\Users\VC\source\repos\AN-Task-ProxyPattern\AN-Task-ProxyPattern\obj\Debug\net8.0\AN-Task-ProxyPattern.pdb
+C:\Users\VC\source\repos\AN-Task-ProxyPattern\AN-Task-ProxyPattern\obj\Debug\net8.0\AN-Task-ProxyPattern.genruntimeconfig.cache
+C:\Users\VC\source\repos\AN-Task-ProxyPattern\AN-Task-ProxyPattern\obj\Debug\net8.0\ref\AN-Task-ProxyPattern.dll

@@ -1,0 +1,22 @@
+﻿
+-----------------------------------------------------------------
+
+    This is CONFIDENTIAL DATA.
+    Only Admins can read it.
+
+How does Proxy pattern work?
+ 1) Define an interface that both the real object and the proxy implement.
+
+ 2) The client interacts with the proxy using this interface.
+
+ 3) The proxy holds a reference to the real object.
+
+When a method is called on the proxy, it decides:
+
+Whether to forward the call to the real object,
+
+Or to deny access or provide a substitute result,
+
+Or perform extra actions before/after calling the real object.
+
+--------------------------------------------------------------------

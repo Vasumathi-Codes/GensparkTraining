@@ -1,0 +1,343 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|c:\\users\\vc\\source\\repos\\designpatternincsharp\\designpatternincsharp\\factorymethod-designpattern\\factory\\filehandlerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|solutionrelative:designpatternincsharp\\factorymethod-designpattern\\factory\\filehandlerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|c:\\users\\vc\\source\\repos\\designpatternincsharp\\designpatternincsharp\\abstractfactory-designpattern\\interfaces\\ifilehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|solutionrelative:designpatternincsharp\\abstractfactory-designpattern\\interfaces\\ifilehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|c:\\users\\vc\\source\\repos\\designpatternincsharp\\designpatternincsharp\\factorymethod-designpattern\\products\\textfilehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|solutionrelative:designpatternincsharp\\factorymethod-designpattern\\products\\textfilehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|c:\\users\\vc\\source\\repos\\designpatternincsharp\\designpatternincsharp\\singleton-designpattern\\singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|solutionrelative:designpatternincsharp\\singleton-designpattern\\singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|c:\\users\\vc\\source\\repos\\designpatternincsharp\\designpatternincsharp\\singleton-designpattern\\filehandlersingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|solutionrelative:designpatternincsharp\\singleton-designpattern\\filehandlersingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|c:\\users\\vc\\source\\repos\\designpatternincsharp\\designpatternincsharp\\abstractfactory-designpattern\\interfaces\\ifilehandlerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|solutionrelative:designpatternincsharp\\abstractfactory-designpattern\\interfaces\\ifilehandlerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|c:\\users\\vc\\source\\repos\\designpatternincsharp\\designpatternincsharp\\abstractfactory-designpattern\\abstractfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|solutionrelative:designpatternincsharp\\abstractfactory-designpattern\\abstractfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|c:\\users\\vc\\source\\repos\\designpatternincsharp\\designpatternincsharp\\abstractfactory-designpattern\\abstractfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|solutionrelative:designpatternincsharp\\abstractfactory-designpattern\\abstractfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|c:\\users\\vc\\source\\repos\\designpatternincsharp\\designpatternincsharp\\abstractfactory-designpattern\\abstractfactory.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|solutionrelative:designpatternincsharp\\abstractfactory-designpattern\\abstractfactory.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|c:\\users\\vc\\source\\repos\\designpatternincsharp\\designpatternincsharp\\factorymethod-designpattern\\factorymethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|solutionrelative:designpatternincsharp\\factorymethod-designpattern\\factorymethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|c:\\users\\vc\\source\\repos\\designpatternincsharp\\designpatternincsharp\\factorymethod-designpattern\\interfaces\\ifilehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|solutionrelative:designpatternincsharp\\factorymethod-designpattern\\interfaces\\ifilehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|c:\\users\\vc\\source\\repos\\designpatternincsharp\\designpatternincsharp\\factorymethod-designpattern\\factoryfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|solutionrelative:designpatternincsharp\\factorymethod-designpattern\\factoryfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|c:\\users\\vc\\source\\repos\\designpatternincsharp\\designpatternincsharp\\abstractfactory-designpattern\\products\\jsonfilehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|solutionrelative:designpatternincsharp\\abstractfactory-designpattern\\products\\jsonfilehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|c:\\users\\vc\\source\\repos\\designpatternincsharp\\designpatternincsharp\\abstractfactory-designpattern\\factories\\jsonfilefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|solutionrelative:designpatternincsharp\\abstractfactory-designpattern\\factories\\jsonfilefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|c:\\users\\vc\\source\\repos\\designpatternincsharp\\designpatternincsharp\\singleton-designpattern\\signletonfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|solutionrelative:designpatternincsharp\\singleton-designpattern\\signletonfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|c:\\users\\vc\\source\\repos\\designpatternincsharp\\designpatternincsharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|solutionrelative:designpatternincsharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|c:\\users\\vc\\source\\repos\\designpatternincsharp\\designpatternincsharp\\abstractfactory-designpattern\\factories\\textfilefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|solutionrelative:designpatternincsharp\\abstractfactory-designpattern\\factories\\textfilefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|c:\\users\\vc\\source\\repos\\designpatternincsharp\\designpatternincsharp\\abstractfactory-designpattern\\products\\textfilehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|solutionrelative:designpatternincsharp\\abstractfactory-designpattern\\products\\textfilehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|c:\\users\\vc\\source\\repos\\designpatternincsharp\\designpatternincsharp\\designpatternincsharp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0E3B76AA-F89B-468D-9883-25912ABAF3F3}|DesignPatternInCSharp\\DesignPatternInCSharp.csproj|solutionrelative:designpatternincsharp\\designpatternincsharp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TextFileHandler.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\FactoryMethod-DesignPattern\\Products\\TextFileHandler.cs",
+              "RelativeDocumentMoniker": "DesignPatternInCSharp\\FactoryMethod-DesignPattern\\Products\\TextFileHandler.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\FactoryMethod-DesignPattern\\Products\\TextFileHandler.cs",
+              "RelativeToolTip": "DesignPatternInCSharp\\FactoryMethod-DesignPattern\\Products\\TextFileHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T07:20:46.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IFileHandlerFactory.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\AbstractFactory-DesignPattern\\Interfaces\\IFileHandlerFactory.cs",
+              "RelativeDocumentMoniker": "DesignPatternInCSharp\\AbstractFactory-DesignPattern\\Interfaces\\IFileHandlerFactory.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\AbstractFactory-DesignPattern\\Interfaces\\IFileHandlerFactory.cs",
+              "RelativeToolTip": "DesignPatternInCSharp\\AbstractFactory-DesignPattern\\Interfaces\\IFileHandlerFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T07:29:33.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FileHandlerSingleton.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\Singleton-DesignPattern\\FileHandlerSingleton.cs",
+              "RelativeDocumentMoniker": "DesignPatternInCSharp\\Singleton-DesignPattern\\FileHandlerSingleton.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\Singleton-DesignPattern\\FileHandlerSingleton.cs",
+              "RelativeToolTip": "DesignPatternInCSharp\\Singleton-DesignPattern\\FileHandlerSingleton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T07:11:30.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Singleton.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\Singleton-DesignPattern\\Singleton.cs",
+              "RelativeDocumentMoniker": "DesignPatternInCSharp\\Singleton-DesignPattern\\Singleton.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\Singleton-DesignPattern\\Singleton.cs",
+              "RelativeToolTip": "DesignPatternInCSharp\\Singleton-DesignPattern\\Singleton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T07:09:56.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IFileHandler.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\AbstractFactory-DesignPattern\\Interfaces\\IFileHandler.cs",
+              "RelativeDocumentMoniker": "DesignPatternInCSharp\\AbstractFactory-DesignPattern\\Interfaces\\IFileHandler.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\AbstractFactory-DesignPattern\\Interfaces\\IFileHandler.cs",
+              "RelativeToolTip": "DesignPatternInCSharp\\AbstractFactory-DesignPattern\\Interfaces\\IFileHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T07:27:33.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileHandlerFactory.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\FactoryMethod-DesignPattern\\Factory\\FileHandlerFactory.cs",
+              "RelativeDocumentMoniker": "DesignPatternInCSharp\\FactoryMethod-DesignPattern\\Factory\\FileHandlerFactory.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\FactoryMethod-DesignPattern\\Factory\\FileHandlerFactory.cs",
+              "RelativeToolTip": "DesignPatternInCSharp\\FactoryMethod-DesignPattern\\Factory\\FileHandlerFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T07:21:36.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AbstractFactory.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\AbstractFactory-DesignPattern\\AbstractFactory.cs",
+              "RelativeDocumentMoniker": "DesignPatternInCSharp\\AbstractFactory-DesignPattern\\AbstractFactory.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\AbstractFactory-DesignPattern\\AbstractFactory.cs",
+              "RelativeToolTip": "DesignPatternInCSharp\\AbstractFactory-DesignPattern\\AbstractFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAC1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T07:31:03.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IFileHandler.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\FactoryMethod-DesignPattern\\Interfaces\\IFileHandler.cs",
+              "RelativeDocumentMoniker": "DesignPatternInCSharp\\FactoryMethod-DesignPattern\\Interfaces\\IFileHandler.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\FactoryMethod-DesignPattern\\Interfaces\\IFileHandler.cs",
+              "RelativeToolTip": "DesignPatternInCSharp\\FactoryMethod-DesignPattern\\Interfaces\\IFileHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T07:20:10.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "factoryfile.txt",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\FactoryMethod-DesignPattern\\factoryfile.txt",
+              "RelativeDocumentMoniker": "DesignPatternInCSharp\\FactoryMethod-DesignPattern\\factoryfile.txt",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\FactoryMethod-DesignPattern\\factoryfile.txt",
+              "RelativeToolTip": "DesignPatternInCSharp\\FactoryMethod-DesignPattern\\factoryfile.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-23T08:23:30.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "abstractfile.txt",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\AbstractFactory-DesignPattern\\abstractfile.txt",
+              "RelativeDocumentMoniker": "DesignPatternInCSharp\\AbstractFactory-DesignPattern\\abstractfile.txt",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\AbstractFactory-DesignPattern\\abstractfile.txt",
+              "RelativeToolTip": "DesignPatternInCSharp\\AbstractFactory-DesignPattern\\abstractfile.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-23T08:25:13.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "abstractFactory.txt",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\AbstractFactory-DesignPattern\\abstractFactory.txt",
+              "RelativeDocumentMoniker": "DesignPatternInCSharp\\AbstractFactory-DesignPattern\\abstractFactory.txt",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\AbstractFactory-DesignPattern\\abstractFactory.txt",
+              "RelativeToolTip": "DesignPatternInCSharp\\AbstractFactory-DesignPattern\\abstractFactory.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-23T08:20:51.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FactoryMethod.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\FactoryMethod-DesignPattern\\FactoryMethod.cs",
+              "RelativeDocumentMoniker": "DesignPatternInCSharp\\FactoryMethod-DesignPattern\\FactoryMethod.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\FactoryMethod-DesignPattern\\FactoryMethod.cs",
+              "RelativeToolTip": "DesignPatternInCSharp\\FactoryMethod-DesignPattern\\FactoryMethod.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAC8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T07:22:01.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "JsonFileHandler.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\AbstractFactory-DesignPattern\\Products\\JsonFileHandler.cs",
+              "RelativeDocumentMoniker": "DesignPatternInCSharp\\AbstractFactory-DesignPattern\\Products\\JsonFileHandler.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\AbstractFactory-DesignPattern\\Products\\JsonFileHandler.cs",
+              "RelativeToolTip": "DesignPatternInCSharp\\AbstractFactory-DesignPattern\\Products\\JsonFileHandler.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T07:28:55.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "JsonFileFactory.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\AbstractFactory-DesignPattern\\Factories\\JsonFileFactory.cs",
+              "RelativeDocumentMoniker": "DesignPatternInCSharp\\AbstractFactory-DesignPattern\\Factories\\JsonFileFactory.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\AbstractFactory-DesignPattern\\Factories\\JsonFileFactory.cs",
+              "RelativeToolTip": "DesignPatternInCSharp\\AbstractFactory-DesignPattern\\Factories\\JsonFileFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T07:30:38.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "signletonfile.txt",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\Singleton-DesignPattern\\signletonfile.txt",
+              "RelativeDocumentMoniker": "DesignPatternInCSharp\\Singleton-DesignPattern\\signletonfile.txt",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\Singleton-DesignPattern\\signletonfile.txt",
+              "RelativeToolTip": "DesignPatternInCSharp\\Singleton-DesignPattern\\signletonfile.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-23T08:19:32.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\Program.cs",
+              "RelativeDocumentMoniker": "DesignPatternInCSharp\\Program.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\Program.cs",
+              "RelativeToolTip": "DesignPatternInCSharp\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwB0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T06:48:04.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TextFileFactory.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\AbstractFactory-DesignPattern\\Factories\\TextFileFactory.cs",
+              "RelativeDocumentMoniker": "DesignPatternInCSharp\\AbstractFactory-DesignPattern\\Factories\\TextFileFactory.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\AbstractFactory-DesignPattern\\Factories\\TextFileFactory.cs",
+              "RelativeToolTip": "DesignPatternInCSharp\\AbstractFactory-DesignPattern\\Factories\\TextFileFactory.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwA0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T07:30:04.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TextFileHandler.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\AbstractFactory-DesignPattern\\Products\\TextFileHandler.cs",
+              "RelativeDocumentMoniker": "DesignPatternInCSharp\\AbstractFactory-DesignPattern\\Products\\TextFileHandler.cs",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\AbstractFactory-DesignPattern\\Products\\TextFileHandler.cs",
+              "RelativeToolTip": "DesignPatternInCSharp\\AbstractFactory-DesignPattern\\Products\\TextFileHandler.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T07:28:20.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DesignPatternInCSharp",
+              "DocumentMoniker": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\DesignPatternInCSharp.csproj",
+              "RelativeDocumentMoniker": "DesignPatternInCSharp\\DesignPatternInCSharp.csproj",
+              "ToolTip": "C:\\Users\\VC\\source\\repos\\DesignPatternInCSharp\\DesignPatternInCSharp\\DesignPatternInCSharp.csproj",
+              "RelativeToolTip": "DesignPatternInCSharp\\DesignPatternInCSharp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-23T07:09:28.261Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
