@@ -1,0 +1,57 @@
+Q: How can I reset my net banking password?
+A: Use the 'Forgot Password' option on the login page and follow the instructions sent to your registered email or mobile number.
+
+Q: What types of accounts does the bank offer?
+A: Savings accounts, current accounts, fixed deposits, and recurring deposits.
+
+Q: How do I open a savings account?
+A: You can open a savings account online through our website or by visiting the nearest branch with valid ID and address proof.
+
+Q: What is the minimum balance required for a savings account?
+A: The minimum balance requirement varies by account type and location. It typically ranges from ₹1,000 to ₹10,000.
+
+Q: What documents are required for KYC?
+A: You need to submit valid proof of identity (e.g., Aadhaar, PAN, Passport) and address proof (e.g., utility bill, rental agreement).
+
+Q: What are the interest rates for fixed deposits?
+A: Interest rates for fixed deposits range from 4% to 7% annually, depending on the deposit tenure and amount.
+
+Q: Can I withdraw a fixed deposit before maturity?
+A: Yes, premature withdrawal is allowed but may incur a penalty and reduced interest rate.
+
+Q: How can I apply for a personal loan?
+A: Apply through our website or mobile app by uploading required documents like salary slips, ID proof, and address proof.
+
+Q: What is the repayment period for home loans?
+A: Home loans can be repaid over a period of up to 30 years with flexible EMI options.
+
+Q: How secure is online banking?
+A: We use advanced encryption, firewalls, and two-factor authentication to ensure safe and secure online banking.
+
+Q: What should I do if I suspect fraudulent activity?
+A: Immediately contact customer support or visit the nearest branch to report suspicious activity and block your account.
+
+Q: How can I block my lost or stolen debit card?
+A: Call our 24/7 helpline or use net banking/mobile banking to block your debit card instantly.
+
+Q: How do I download my account statement?
+A: Log in to net banking or the mobile app, navigate to the 'Statements' section, and select the desired date range to download.
+
+Q: What is the process for updating my registered mobile number?
+A: Visit the nearest branch with valid ID proof and fill out the mobile number update form.
+
+Q: Does the bank offer credit card EMI options?
+A: Yes, eligible transactions can be converted into EMIs through net banking, the mobile app, or by contacting customer support.
+
+Q: What are the charges for ATM withdrawals?
+A: You get five free transactions per month at ATMs. Beyond that, a nominal fee applies per withdrawal.
+
+Q: Can I transfer funds internationally?
+A: Yes, international fund transfers are supported via SWIFT. You'll need recipient bank details and may incur foreign exchange fees.
+
+Q: What is net banking and how can I register?
+A: Net banking allows you to manage your accounts online. Register using your account number and registered mobile number.
+
+Q: What is the customer care number for urgent help?
+A: You can call 1800-123-4567 (toll-free) for any banking-related assistance, available 24x7.
+
