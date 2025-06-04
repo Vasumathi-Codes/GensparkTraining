@@ -1,0 +1,139 @@
+2025-06-04 12:32:01,773 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5110
+2025-06-04 12:32:01,803 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-06-04 12:32:01,803 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-06-04 12:32:01,803 [1] INFO Microsoft.Hosting.Lifetime - Content root path: /Users/presidio/Desktop/AllApi/FirstAPI/FirstAPI
+2025-06-04 13:04:57,638 [.NET Signal Handler] INFO Microsoft.Hosting.Lifetime - Application is shutting down...
+2025-06-04 13:05:02,491 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5110
+2025-06-04 13:05:02,519 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-06-04 13:05:02,519 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-06-04 13:05:02,519 [1] INFO Microsoft.Hosting.Lifetime - Content root path: /Users/presidio/Desktop/AllApi/FirstAPI/FirstAPI
+2025-06-04 13:05:23,976 [15] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (17ms) [Parameters=[@__key_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT u."Username", u."HashKey", u."Password", u."Role"
+FROM "Users" AS u
+WHERE u."Username" = @__key_0
+LIMIT 2
+2025-06-04 13:05:23,985 [15] FATAL FirstAPI.Services.AuthenticationService - User not found
+2025-06-04 13:12:48,340 [.NET Signal Handler] INFO Microsoft.Hosting.Lifetime - Application is shutting down...
+2025-06-04 13:12:52,647 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5110
+2025-06-04 13:12:52,672 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-06-04 13:12:52,672 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-06-04 13:12:52,672 [1] INFO Microsoft.Hosting.Lifetime - Content root path: /Users/presidio/Desktop/AllApi/FirstAPI/FirstAPI
+2025-06-04 13:13:07,015 [14] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (15ms) [Parameters=[@__key_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT u."Username", u."HashKey", u."Password", u."Role"
+FROM "Users" AS u
+WHERE u."Username" = @__key_0
+LIMIT 2
+2025-06-04 13:13:07,023 [14] FATAL FirstAPI.Services.AuthenticationService - User not found
+2025-06-04 13:13:07,034 [14] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.Exception: No such user
+   at FirstAPI.Services.AuthenticationService.Login(UserLoginRequest user) in /Users/presidio/Desktop/AllApi/FirstAPI/FirstAPI/Services/AuthenticationService.cs:line 31
+   at FirstAPI.Controllers.AuthenticationController.UserLogin(UserLoginRequest loginRequest) in /Users/presidio/Desktop/AllApi/FirstAPI/FirstAPI/Controllers/AuthenticationController.cs:line 33
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-04 14:35:08,376 [.NET Signal Handler] INFO Microsoft.Hosting.Lifetime - Application is shutting down...
+2025-06-04 15:29:30,418 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5110
+2025-06-04 15:29:30,446 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-06-04 15:29:30,446 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-06-04 15:29:30,446 [1] INFO Microsoft.Hosting.Lifetime - Content root path: /Users/presidio/Desktop/AllApi/FirstAPI/FirstAPI
+2025-06-04 15:49:16,273 [19] ERROR FirstAPI.Services.GoogleAuthenticationService - Google token validation failed: JWT must consist of Header, Payload, and Signature
+2025-06-04 15:49:16,301 [19] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.Exception: Invalid Google token
+   at FirstAPI.Services.GoogleAuthenticationService.LoginWithGoogle(String idToken) in /Users/presidio/Desktop/AllApi/FirstAPI/FirstAPI/Services/GoogleAuthenticationService.cs:line 35
+   at FirstAPI.Controllers.AuthenticationController.UserLogin(String token) in /Users/presidio/Desktop/AllApi/FirstAPI/FirstAPI/Controllers/AuthenticationController.cs:line 34
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-04 15:50:58,548 [25] ERROR FirstAPI.Services.GoogleAuthenticationService - Google token validation failed: JWT must consist of Header, Payload, and Signature
+2025-06-04 15:50:58,550 [25] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.Exception: Invalid Google token
+   at FirstAPI.Services.GoogleAuthenticationService.LoginWithGoogle(String idToken) in /Users/presidio/Desktop/AllApi/FirstAPI/FirstAPI/Services/GoogleAuthenticationService.cs:line 35
+   at FirstAPI.Controllers.AuthenticationController.UserLogin(String token) in /Users/presidio/Desktop/AllApi/FirstAPI/FirstAPI/Controllers/AuthenticationController.cs:line 34
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-04 15:54:36,379 [28] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (16ms) [Parameters=[@__key_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT u."Username", u."HashKey", u."Password", u."Role"
+FROM "Users" AS u
+WHERE u."Username" = @__key_0
+LIMIT 2
+2025-06-04 15:54:36,436 [27] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@p0='?', @p1='?' (DbType = Binary), @p2='?' (DbType = Binary), @p3='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Users" ("Username", "HashKey", "Password", "Role")
+VALUES (@p0, @p1, @p2, @p3);
+2025-06-04 16:15:37,449 [34] ERROR FirstAPI.Services.GoogleAuthenticationService - Google token validation failed: JWT must consist of Header, Payload, and Signature
+2025-06-04 16:15:37,462 [34] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.Exception: Invalid Google token
+   at FirstAPI.Services.GoogleAuthenticationService.LoginWithGoogle(String idToken) in /Users/presidio/Desktop/AllApi/FirstAPI/FirstAPI/Services/GoogleAuthenticationService.cs:line 35
+   at FirstAPI.Controllers.AuthenticationController.UserLogin(String token) in /Users/presidio/Desktop/AllApi/FirstAPI/FirstAPI/Controllers/AuthenticationController.cs:line 34
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-04 16:15:53,887 [33] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (16ms) [Parameters=[@__key_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT u."Username", u."HashKey", u."Password", u."Role"
+FROM "Users" AS u
+WHERE u."Username" = @__key_0
+LIMIT 2
+2025-06-04 16:15:53,895 [33] INFO Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@p0='?', @p1='?' (DbType = Binary), @p2='?' (DbType = Binary), @p3='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Users" ("Username", "HashKey", "Password", "Role")
+VALUES (@p0, @p1, @p2, @p3);
+2025-06-04 16:38:05,606 [.NET Signal Handler] INFO Microsoft.Hosting.Lifetime - Application is shutting down...
+2025-06-04 17:11:57,352 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5110
+2025-06-04 17:11:57,381 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-06-04 17:11:57,381 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-06-04 17:11:57,381 [1] INFO Microsoft.Hosting.Lifetime - Content root path: /Users/presidio/Desktop/AllApi/FirstAPI/FirstAPI
+2025-06-04 17:54:18,412 [.NET Signal Handler] INFO Microsoft.Hosting.Lifetime - Application is shutting down...
