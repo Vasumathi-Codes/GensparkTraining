@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Notify - File Upload Alerts</title>
+</head>
+<body>
+    <h2>File Upload Notifications</h2>
+    <div id="notifications"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@microsoft/signalr@8.0.7/dist/browser/signalr.min.js"></script>
+    <script>
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl("http://localhost:5252/notifyHub") 
+            .withAutomaticReconnect()
+            .build();
+
+        connection.on("NewFileUploaded", (data) => {
+            const notificationsDiv = document.getElementById("notifications");
+
+            const fileName = data.fileName;
+            const uploadedBy = data.uploadedBy;
+            const uploadedAt = new Date(data.uploadedAt).toLocaleString();
+
+            console.log(`[${uploadedAt}] New file uploaded: "${fileName}" by ${uploadedBy}`);
+
+            const para = document.createElement("p");
+            para.textContent = `[${uploadedAt}] New file uploaded: "${fileName}" by ${uploadedBy}`;
+            notificationsDiv.appendChild(para);
+        });
+
+
+        connection.start()
+            .then(() => console.log("Connected to NotifyHub"))
+            .catch(err => console.error("SignalR connection error:", err));
+
+        connection.onclose(error => {
+            console.error("SignalR connection closed.", error);
+        });
+
+        connection.onreconnecting(error => {
+            console.warn("SignalR reconnecting...", error);
+        });
+
+        connection.onreconnected(connectionId => {
+            console.log("SignalR reconnected. ConnectionId:", connectionId);
+        });
+    </script>
+</body>
+</html>
