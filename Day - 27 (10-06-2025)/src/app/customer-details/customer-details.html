@@ -1,0 +1,12 @@
+
+<div>
+    <h2>Customer Details</h2>
+    <p>Name: {{customer.name}}</p>
+    <p>Email: {{customer.email}}</p>
+
+    <i class="bi bi-hand-thumbs-up-fill like-icon" (click)="like()"></i>
+    <span>{{likeCount}}</span>
+    <i class="bi bi-hand-thumbs-down-fill dislike-icon" (click)="dislike()"></i>
+    <span>{{dislikeCount}}</span>
+</div>
+

@@ -1,0 +1,31 @@
+div {
+    padding: 20px;
+    border: 1px solid gray;
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.like-icon, .dislike-icon {
+  font-size: 30px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.like-icon {
+    color: green;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.dislike-icon {
+    color: red;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.like-icon:hover {
+    color: rgb(96, 152, 96);
+}
+
+.dislike-icon:hover {
+    color: rgb(215, 79, 79);
+}
