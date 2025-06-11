@@ -1,0 +1,18 @@
+<h2>Recipe Gallery</h2>
+
+@if (recipes().length === 0) {
+  <p style="text-align: center;">No recipes found.</p>
+} @else {
+  <div class="recipe-grid">
+    @for (recipe of recipes(); track recipe.id) {
+      <div class="recipe-card">
+        <img [src]="recipe.image" alt="{{ recipe.name }}" />
+        <h3>{{ recipe.name }}</h3>
+        <p><strong>Cuisine:</strong> {{ recipe.cuisine }}</p>
+        <p><strong>Cooking time:</strong> {{ recipe.cookTimeMinutes }} mins</p>
+        <p><strong>Difficulty:</strong> {{ recipe.difficulty }}</p>
+        <p><strong>Ingredients:</strong> {{ recipe.ingredients.join(', ') }}</p>
+      </div>
+    }
+  </div>
+}

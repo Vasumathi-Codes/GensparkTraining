@@ -1,0 +1,17 @@
+
+
+<header>
+  <h1>Product Details</h1>
+  <div class="cart-icon-container">
+    <i class="bi bi-cart"></i>
+    <span>{{ cartCount }}</span>
+  </div>
+</header>
+
+<div class="products-container">
+  <div *ngFor="let product of products" class="products">
+    <h3>{{ product.name }}</h3>
+    <img [src]="product.img" alt="{{ product.name }}" width="150">
+    <button (click)="addToCart()" class="cart">Add to Cart</button>
+  </div>
+</div>
