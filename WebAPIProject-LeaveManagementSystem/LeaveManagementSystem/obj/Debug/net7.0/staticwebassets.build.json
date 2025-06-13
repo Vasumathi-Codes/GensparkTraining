@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "OtEwMkFuKHz/s/JVHS96k2NxF3wGKmZMhZv88KIE38g=",
+  "Source": "LeaveManagementSystem",
+  "BasePath": "_content/LeaveManagementSystem",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "LeaveManagementSystem/wwwroot",
+      "Source": "LeaveManagementSystem",
+      "ContentRoot": "/Users/presidio/Desktop/AllApi/LeaveManagementSystem copy/LeaveManagementSystem/wwwroot/",
+      "BasePath": "_content/LeaveManagementSystem",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/presidio/Desktop/AllApi/LeaveManagementSystem copy/LeaveManagementSystem/wwwroot/uploads/47341f4a-04a3-4c25-a3fc-ff63c838cb88.txt",
+      "SourceId": "LeaveManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/presidio/Desktop/AllApi/LeaveManagementSystem copy/LeaveManagementSystem/wwwroot/",
+      "BasePath": "_content/LeaveManagementSystem",
+      "RelativePath": "uploads/47341f4a-04a3-4c25-a3fc-ff63c838cb88.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/47341f4a-04a3-4c25-a3fc-ff63c838cb88.txt"
+    },
+    {
+      "Identity": "/Users/presidio/Desktop/AllApi/LeaveManagementSystem copy/LeaveManagementSystem/wwwroot/uploads/8fad4a85-c163-43c3-b4a5-d253f78d1624.txt",
+      "SourceId": "LeaveManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/presidio/Desktop/AllApi/LeaveManagementSystem copy/LeaveManagementSystem/wwwroot/",
+      "BasePath": "_content/LeaveManagementSystem",
+      "RelativePath": "uploads/8fad4a85-c163-43c3-b4a5-d253f78d1624.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/8fad4a85-c163-43c3-b4a5-d253f78d1624.txt"
+    },
+    {
+      "Identity": "/Users/presidio/Desktop/AllApi/LeaveManagementSystem copy/LeaveManagementSystem/wwwroot/uploads/d682c4c9-ba9d-4735-b701-3ce7d49fda04.txt",
+      "SourceId": "LeaveManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/presidio/Desktop/AllApi/LeaveManagementSystem copy/LeaveManagementSystem/wwwroot/",
+      "BasePath": "_content/LeaveManagementSystem",
+      "RelativePath": "uploads/d682c4c9-ba9d-4735-b701-3ce7d49fda04.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/d682c4c9-ba9d-4735-b701-3ce7d49fda04.txt"
+    }
+  ]
+}

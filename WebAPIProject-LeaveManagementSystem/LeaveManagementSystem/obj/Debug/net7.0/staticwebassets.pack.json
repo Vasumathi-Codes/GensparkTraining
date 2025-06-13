@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/presidio/Desktop/AllApi/LeaveManagementSystem copy/LeaveManagementSystem/wwwroot/uploads/47341f4a-04a3-4c25-a3fc-ff63c838cb88.txt",
+      "PackagePath": "staticwebassets/uploads/47341f4a-04a3-4c25-a3fc-ff63c838cb88.txt"
+    },
+    {
+      "Id": "/Users/presidio/Desktop/AllApi/LeaveManagementSystem copy/LeaveManagementSystem/wwwroot/uploads/8fad4a85-c163-43c3-b4a5-d253f78d1624.txt",
+      "PackagePath": "staticwebassets/uploads/8fad4a85-c163-43c3-b4a5-d253f78d1624.txt"
+    },
+    {
+      "Id": "/Users/presidio/Desktop/AllApi/LeaveManagementSystem copy/LeaveManagementSystem/wwwroot/uploads/d682c4c9-ba9d-4735-b701-3ce7d49fda04.txt",
+      "PackagePath": "staticwebassets/uploads/d682c4c9-ba9d-4735-b701-3ce7d49fda04.txt"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.LeaveManagementSystem.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.LeaveManagementSystem.props",
+      "PackagePath": "build\\LeaveManagementSystem.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.LeaveManagementSystem.props",
+      "PackagePath": "buildMultiTargeting\\LeaveManagementSystem.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.LeaveManagementSystem.props",
+      "PackagePath": "buildTransitive\\LeaveManagementSystem.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
