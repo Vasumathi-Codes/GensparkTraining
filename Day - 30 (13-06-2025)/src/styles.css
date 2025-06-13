@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #d7e1ec, #f5f7fa);
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  color: #1976d2;
+  margin-top: 20px;
+}

@@ -1,0 +1,37 @@
+.card {
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f0f4f8;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  margin: 10px 0;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card p {
+  font-size: 15px;
+  margin: 5px 0;
+  color: #555;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  font-size: 16px;
+}
