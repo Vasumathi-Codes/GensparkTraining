@@ -1,0 +1,23 @@
+<div class="home-container">
+  <h2>Product Listings</h2>
+  <input 
+    [ngModel]="searchTerm" 
+    (ngModelChange)="onSearch($event)" 
+    placeholder="Search products..." />
+
+  <div class="product-grid">
+    <app-product-card 
+      *ngFor="let product of products" 
+      [product]="product" 
+      [searchTerm]="searchTerm">
+    </app-product-card>
+  </div>
+
+  <div class="loader" *ngIf="isLoading">
+    Loading...
+  </div>
+
+  <button class="back-to-top" *ngIf="showBackToTop" (click)="scrollToTop()">
+    ↑ Back to Top
+  </button>
+</div>
