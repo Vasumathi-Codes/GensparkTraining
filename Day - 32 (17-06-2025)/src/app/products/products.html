@@ -1,0 +1,17 @@
+<h2>Product List</h2>
+
+<div class="search-container">
+  <input [(ngModel)]="query" (input)="onSearch()" placeholder="Search Products...">
+</div>
+
+<div *ngIf="loading" class="loader">Loading...</div>
+<div *ngIf="!loading && products.length === 0" class="no-results">No results found.</div>
+
+<div class="grid">
+  <div class="card" *ngFor="let product of products" (click)="viewDetail(product.id)">
+    <img [src]="product.thumbnail" alt="{{product.title}}">
+    <h3>{{ product.title }}</h3>
+    <p class="desc">{{ product.description }}</p>
+    <p class="price">₹ {{ product.price }}</p>
+  </div>
+</div>
