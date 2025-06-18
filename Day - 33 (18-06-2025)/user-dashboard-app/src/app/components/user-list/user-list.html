@@ -1,0 +1,114 @@
+<div class="container">
+  <h2 style="text-align: center;">Users List with Filters</h2>
+
+  @if (errorMessage) {
+    <div class="alert alert-danger">{{errorMessage}}</div>
+  } @else {
+    <div class="filters">
+      <div class="filter-group">
+        <label for="gender">Gender :</label>
+        <select id="gender" class="form-select" [(ngModel)]="genderFilter" (change) = "applyFilter()">
+          <option value="">All</option>
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="role">Role :</label>
+        <select id="role" class="form-select" [(ngModel)]="roleFilter" (change) = "applyFilter()">
+          <option value="">All</option>
+          @for (role of uniqueRoles; track role) {
+            <option [value]="role">{{role}}</option>
+          }
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="state">State :</label>
+        <select id="state" class="form-select" [(ngModel)]="stateFilter" (change) = "applyFilter()">
+          <option value="">All</option>
+          @for (state of uniqueStates; track state) {
+            <option [value]="state">{{state}}</option>
+          }
+
+        </select>
+      </div>
+    </div>
+
+    <div class="dashboard">
+      <div class="dashboard-box total">
+        <h5>Total Users</h5>
+        <p>{{totalUsers}}</p>
+      </div>
+      <div class="dashboard-box male">
+        <h5>Male Users</h5>
+        <p>{{maleCount}}</p>
+      </div>
+      <div class="dashboard-box female">
+        <h5>Female Users</h5>
+        <p>{{femaleCount}}</p>
+      </div>
+      <div class="dashboard-box avg-age">
+        <h5>Average Age</h5>
+        <p>{{avgAge | number : '1.0-0'}}</p>
+      </div>
+    </div>
+
+    <div class="charts-section">
+  <div class="top-charts">
+    <!-- Gender Pie Chart -->
+    <div class="chart-box">
+      <canvasjs-chart 
+        [options]="genderChartOptions" 
+        style="height: 250px; width: 100%;">
+      </canvasjs-chart>
+    </div>
+
+    <!-- Role Bar Chart -->
+    <div class="chart-box">
+      <canvasjs-chart 
+        [options]="roleChartOptions" 
+        style="height: 250px; width: 100%;">
+      </canvasjs-chart>
+    </div>
+  </div>
+
+  <!-- State Bar Chart (below) -->
+  <div class="bottom-chart">
+    <canvasjs-chart 
+      [options]="stateChartOptions" 
+      style="height: 250px; width: 100%;">
+    </canvasjs-chart>
+  </div>
+</div>
+
+
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Gender</th>
+          <th>Age</th>
+          <th>Role</th>
+          <th>State</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (user of filteredUsers; track user.firstName) {
+          <tr>
+            <td>{{user.firstName}}</td>
+            <td>{{user.gender}}</td>
+            <td>{{user.age}}</td>
+            <td>{{user.role}}</td>
+            <td>{{user.address.state}}</td>
+          </tr>
+        }
+      </tbody>
+    </table>
+
+    @if (filteredUsers.length === 0) {
+      <p class="no-results">No matching users found</p>
+    }
+  }
+</div>

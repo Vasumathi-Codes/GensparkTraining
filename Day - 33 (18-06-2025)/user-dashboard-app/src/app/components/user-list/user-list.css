@@ -1,0 +1,123 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.filters {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.filter-group {
+  flex: 1;
+}
+
+.form-select {
+  width: 100%;
+  padding: 6px;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  gap: 15px;
+}
+
+.dashboard-box {
+  flex: 1;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.dashboard-box:hover {
+  transform: translateY(-5px);
+}
+
+.dashboard-box h5 {
+  margin: 0;
+  font-size: 16px;
+  color: #495057;
+}
+
+.dashboard-box p {
+  margin: 5px 0 0 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.dashboard-box.total {
+  background: linear-gradient(135deg, #d1ecf1, #bee5eb);
+}
+
+.dashboard-box.male {
+  background: linear-gradient(135deg, #cce5ff, #b8daff);
+}
+
+.dashboard-box.female {
+  background: linear-gradient(135deg, #f8d7da, #f5c6cb);
+}
+
+.dashboard-box.avg-age {
+  background: linear-gradient(135deg, #d4edda, #c3e6cb);
+}
+
+.table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  border: 1px solid #dee2e6;
+  padding: 10px;
+  text-align: left;
+}
+
+.no-results {
+  margin-top: 20px;
+  color: #dc3545;
+  font-weight: bold;
+}
+.charts-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.top-charts {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.chart-box {
+  flex: 1;
+  border: 1px solid #ddd;        
+  border-radius: 8px;             
+  padding: 10px;                  
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+  background-color: #fff;        
+}
+
+.bottom-chart {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
