@@ -1,0 +1,31 @@
+import { Injectable } from '@angular/core';
+import { BehaviorSubject } from 'rxjs';
+import { User } from '../models/user.model';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class UserService {
+  private initialUsers: User[] = [
+    { username: 'john_doe', email: 'john@example.com', password: 'John@123', role: 'Admin' },
+    { username: 'jane_smith', email: 'jane@example.com', password: 'Jane@123', role: 'User' },
+    { username: 'alice_johnson', email: 'alice@example.com', password: 'Alice@123', role: 'Guest' },
+    { username: 'mike_brown', email: 'mike@example.com', password: 'Mike@123', role: 'User' },
+    { username: 'emma_wilson', email: 'emma@example.com', password: 'Emma@123', role: 'Admin' },
+    { username: 'david_lee', email: 'david@example.com', password: 'David@123', role: 'User' },
+    { username: 'sophia_moore', email: 'sophia@example.com', password: 'Sophia@123', role: 'Guest' },
+    { username: 'chris_evans', email: 'chris@example.com', password: 'Chris@123', role: 'Admin' },
+    { username: 'lisa_taylor', email: 'lisa@example.com', password: 'Lisa@123', role: 'User' },
+    { username: 'mark_wilson', email: 'mark@example.com', password: 'Mark@123', role: 'Guest' }
+  ];
+
+  private usersSubject = new BehaviorSubject<User[]>(this.initialUsers);
+  users$ = this.usersSubject.asObservable();
+
+  constructor() {}
+
+  addUser(user: User) {
+    const updatedUsers = [...this.usersSubject.value, user];
+    this.usersSubject.next(updatedUsers);
+  }
+}

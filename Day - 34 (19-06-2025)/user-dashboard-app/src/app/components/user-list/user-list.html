@@ -1,0 +1,32 @@
+
+<!-- Search Section -->
+<div class="search-container">
+  <input class="search-bar" [formControl]="searchControl" placeholder="🔍 Search by username or role">
+
+  <select class="role-select" [formControl]="roleControl">
+    <option value="All">All Roles</option>
+    <option value="Admin">Admin</option>
+    <option value="User">User</option>
+    <option value="Guest">Guest</option>
+  </select>
+</div>
+
+<!-- User Table -->
+<table class="user-table">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Username</th>
+      <th>Email</th>
+      <th>Role</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of filteredUsers$ | async; let i = index">
+      <td>{{ i + 1 }}</td>
+      <td>{{ user.username }}</td>
+      <td>{{ user.email }}</td>
+      <td>{{ user.role }}</td>
+    </tr>
+  </tbody>
+</table>
