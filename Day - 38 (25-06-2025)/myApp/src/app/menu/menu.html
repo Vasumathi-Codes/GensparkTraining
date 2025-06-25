@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/services/product.service.ts"],
+  "sourcesContent": ["import { HttpClient } from \"@angular/common/http\";\nimport { inject, Injectable } from \"@angular/core\";\nimport { catchError, Observable, throwError } from \"rxjs\";\n\n@Injectable()\nexport class ProductService{\n    private http = inject(HttpClient);\n\n    getProduct(id:number=1){\n        return this.http.get('https://dummyjson.com/products/'+id)\n    }\n\n    getAllProducts():Observable<any[]>{\n        return this.http.get<any[]>('https://dummyjson.com/products');\n    }\n\n    getProductSearchResult(searchData:string,limit:number=10,skip:number=10)\n    {\n        return this.http.get(`https://dummyjson.com/products/search?q=${searchData}&limit=${limit}&skip=${skip}`)\n    }\n}"],
+  "mappings": ";;;;;;;;;;;;;;;;IAKa;;;;;AALb;AACA;AAIO,IAAM,iBAAN,MAAMA,gBAAc;MACf,OAAO,OAAO,UAAU;MAEhC,WAAW,KAAU,GAAC;AAClB,eAAO,KAAK,KAAK,IAAI,oCAAkC,EAAE;MAC7D;MAEA,iBAAc;AACV,eAAO,KAAK,KAAK,IAAW,gCAAgC;MAChE;MAEA,uBAAuB,YAAkB,QAAa,IAAG,OAAY,IAAE;AAEnE,eAAO,KAAK,KAAK,IAAI,2CAA2C,UAAU,UAAU,KAAK,SAAS,IAAI,EAAE;MAC5G;;AAdS,qBAAc,WAAA;MAD1B,WAAU;OACE,cAAc;;;",
+  "names": ["ProductService"]
+}

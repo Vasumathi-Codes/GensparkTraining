@@ -1,0 +1,32 @@
+import {
+  TestBed,
+  init_testing
+} from "./chunk-JDYYP2R5.js";
+import {
+  __async,
+  __commonJS
+} from "./chunk-TTULUY32.js";
+
+// src/app/notification/notification.spec.ts
+var require_notification_spec = __commonJS({
+  "src/app/notification/notification.spec.ts"(exports) {
+    init_testing();
+    describe("Notification", () => {
+      let component;
+      let fixture;
+      beforeEach(() => __async(null, null, function* () {
+        yield TestBed.configureTestingModule({
+          imports: [Notification]
+        }).compileComponents();
+        fixture = TestBed.createComponent(Notification);
+        component = fixture.componentInstance;
+        fixture.detectChanges();
+      }));
+      it("should create", () => {
+        expect(component).toBeTruthy();
+      });
+    });
+  }
+});
+export default require_notification_spec();
+//# sourceMappingURL=spec-app-notification-notification.spec.js.map

@@ -1,0 +1,43 @@
+import {
+  Menu,
+  init_menu
+} from "./chunk-EBHNJ6UB.js";
+import "./chunk-HKDSAIXA.js";
+import "./chunk-H2KSZ5RO.js";
+import "./chunk-VLBNHNUJ.js";
+import "./chunk-JHNGGVN7.js";
+import "./chunk-LVXYI34E.js";
+import "./chunk-ZCYQ42IE.js";
+import {
+  TestBed,
+  init_testing
+} from "./chunk-JDYYP2R5.js";
+import {
+  __async,
+  __commonJS
+} from "./chunk-TTULUY32.js";
+
+// src/app/menu/menu.spec.ts
+var require_menu_spec = __commonJS({
+  "src/app/menu/menu.spec.ts"(exports) {
+    init_testing();
+    init_menu();
+    describe("Menu", () => {
+      let component;
+      let fixture;
+      beforeEach(() => __async(null, null, function* () {
+        yield TestBed.configureTestingModule({
+          imports: [Menu]
+        }).compileComponents();
+        fixture = TestBed.createComponent(Menu);
+        component = fixture.componentInstance;
+        fixture.detectChanges();
+      }));
+      it("should create", () => {
+        expect(component).toBeTruthy();
+      });
+    });
+  }
+});
+export default require_menu_spec();
+//# sourceMappingURL=spec-app-menu-menu.spec.js.map

@@ -1,0 +1,149 @@
+import {
+  HttpClient,
+  init_http
+} from "./chunk-JHNGGVN7.js";
+import {
+  JsonPipe,
+  init_common
+} from "./chunk-LVXYI34E.js";
+import "./chunk-ZCYQ42IE.js";
+import {
+  Component,
+  Injectable,
+  Subject,
+  TestBed,
+  __decorate,
+  init_core,
+  init_esm,
+  init_testing,
+  init_tslib_es6,
+  inject
+} from "./chunk-JDYYP2R5.js";
+import {
+  __async,
+  __commonJS,
+  __esm
+} from "./chunk-TTULUY32.js";
+
+// angular:jit:template:src/app/file-upload-component/file-upload-component.html
+var file_upload_component_default;
+var init_file_upload_component = __esm({
+  "angular:jit:template:src/app/file-upload-component/file-upload-component.html"() {
+    file_upload_component_default = '<input type="file" (change)="handleFileUpload($event)" />\n{{insertedRecords | json}}\n';
+  }
+});
+
+// src/app/services/BulkInsertService.ts
+var BulkInsertService;
+var init_BulkInsertService = __esm({
+  "src/app/services/BulkInsertService.ts"() {
+    "use strict";
+    init_tslib_es6();
+    init_http();
+    init_core();
+    init_esm();
+    BulkInsertService = class BulkInsertService2 {
+      http;
+      constructor(http) {
+        this.http = http;
+      }
+      processData(file) {
+        const result$ = new Subject();
+        const worker = new Worker(new URL("worker-YO5JSNF7.js", import.meta.url), { type: "module" });
+        worker.onmessage = ({ data }) => {
+          if (typeof data !== "string") {
+            console.error("Unexpected worker data:", data);
+            result$.error("Invalid data from worker");
+            return;
+          }
+          const body = { csvContent: data };
+          this.http.post("http://localhost:5001/api/Sample/FromCsv", body).subscribe({
+            next: (res) => {
+              result$.next(res);
+              result$.complete();
+            },
+            error: (err) => {
+              console.error("API error:", err);
+              result$.error(err);
+            }
+          });
+        };
+        worker.onerror = () => {
+          result$.error("Worker failed to read file");
+        };
+        worker.postMessage({ file });
+        return result$.asObservable();
+      }
+      static ctorParameters = () => [
+        { type: HttpClient }
+      ];
+    };
+    BulkInsertService = __decorate([
+      Injectable()
+    ], BulkInsertService);
+  }
+});
+
+// src/app/file-upload-component/file-upload-component.ts
+var FileUploadComponent;
+var init_file_upload_component2 = __esm({
+  "src/app/file-upload-component/file-upload-component.ts"() {
+    "use strict";
+    init_tslib_es6();
+    init_file_upload_component();
+    init_core();
+    init_http();
+    init_BulkInsertService();
+    init_common();
+    FileUploadComponent = class FileUploadComponent2 {
+      http;
+      constructor(http) {
+        this.http = http;
+      }
+      service = inject(BulkInsertService);
+      insertedRecords;
+      handleFileUpload(event) {
+        const file = event.target.files[0];
+        this.service.processData(file).subscribe({
+          next: (data) => this.insertedRecords = data,
+          error: (err) => alert(err)
+        });
+      }
+      static ctorParameters = () => [
+        { type: HttpClient }
+      ];
+    };
+    FileUploadComponent = __decorate([
+      Component({
+        selector: "app-file-upload",
+        template: file_upload_component_default,
+        imports: [JsonPipe]
+      })
+    ], FileUploadComponent);
+  }
+});
+
+// src/app/file-upload-component/file-upload-component.spec.ts
+var require_file_upload_component_spec = __commonJS({
+  "src/app/file-upload-component/file-upload-component.spec.ts"(exports) {
+    init_testing();
+    init_file_upload_component2();
+    describe("FileUploadComponent", () => {
+      let component;
+      let fixture;
+      beforeEach(() => __async(null, null, function* () {
+        yield TestBed.configureTestingModule({
+          imports: [FileUploadComponent]
+        }).compileComponents();
+        fixture = TestBed.createComponent(FileUploadComponent);
+        component = fixture.componentInstance;
+        fixture.detectChanges();
+      }));
+      it("should create", () => {
+        expect(component).toBeTruthy();
+      });
+    });
+  }
+});
+export default require_file_upload_component_spec();
+//# sourceMappingURL=spec-app-file-upload-component-file-upload-component.spec.js.map
