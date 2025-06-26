@@ -1,0 +1,114 @@
+========================
+ Linux vs Unix Summary
+========================
+Linux: Open-source Kernel, created in 1991 by Linus Torvalds.
+Unix: Licensed OS developed in 1970.
+Linux ≠ Unix, but inspired by Unix.
+Linux is a Kernel (engine), not a full OS.
+Distros like Ubuntu, RedHat = OS built on Linux Kernel.
+
+========================
+ Popular Linux Distros
+========================
+Ubuntu    - Beginner-friendly
+CentOS    - Enterprise systems
+Debian    - Super stable
+RedHat    - Commercial/Enterprise
+Kali      - Ethical hacking
+Fedora    - Developer-focused
+
+=============================
+ Basic Linux Commands & Uses
+=============================
+1. ls            - List files and directories
+2. pwd           - Print current working directory
+3. cd            - Change directory
+4. mkdir         - Make a new directory
+5. rmdir         - Remove an empty directory
+6. cp            - Copy files or directories
+7. mv            - Move or rename files/directories
+8. rm            - Remove files or folders
+9. touch         - Create empty files
+10. cat          - View file contents
+11. man          - View manual page for commands
+12. top / htop   - View system processes (htop = enhanced)
+
+============================
+ Vim Save & Exit Shortcuts
+============================
+ESC :wq     => Save and exit
+ESC :q!     => Quit without saving
+
+============================
+ Example File Commands
+============================
+cp -r folder/ /home/user/backups     # Recursively copy folder
+rm file.txt                          # Delete a file
+rm -r myfolder                       # Delete folder + contents
+rm -rf myfolder                      # Force delete without prompt
+
+=================================
+ Linux File Permissions Summary
+=================================
+Permission Types:
+r - Read
+w - Write
+x - Execute
+
+User Types:
+Owner  - File creator
+Group  - Group members
+Others - Everyone else
+
+chmod +x file.sh     # Add execute permission
+chmod 755 file.sh    # rwx for owner, rx for group and others
+
+==================================
+ ls -lart : Detailed File Listing
+==================================
+-l  : Long format listing
+-a  : Show hidden files
+-r  : Reverse sort order
+-t  : Sort by time (recent first)
+
+===========================
+ File Type Indicators (ls)
+===========================
+-  : Regular file
+d  : Directory
+l  : Symbolic link
+
+
+2. chown
+1. chown swati hello.js  //Changes the owner of hello.js to the user swati  => chown user file
+2. chown swati:devs hello.js  //Changes owner to swati and the group to devs  => chown user:group file
+3. chown :devs hello.js  //Leaves the owner unchanged but changes the group to devs  => chown :group file
+4. chown -r swati project/  //swati as the owner of the folder (files and subfolders)  => chown -r user folder/
+
+adduser, userdel, usermod, passwd => Not supported on a MacOS.
+dscl
+
+whoami
+1. sudo adduser newuser //Add a new user
+sudo adduser swati
+
+passwd swati
+
+sudo userdel newuser //Delete the user
+sudo userdel swati
+
+sudo groupadd devs //Create a group
+sudo groupadd test
+
+sudo usermod -aG devs newuser
+sudo usermod -aG test swati
+
+Initial Membership: devs
+sudo usermod -a -G test swati
+Memberships: devs, test
+
+groups username //Shows the group names the user belongs to.
+groups swati
+
+-a: Append
+-G: Groups

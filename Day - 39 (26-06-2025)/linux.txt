@@ -1,0 +1,122 @@
+1. You have a file with permissions -rw-r--r--, and you run chmod +x file.sh. What happens?
+It adds execute (x) permission for all: user, group, and others.
+-rw-r--r--  ==>  -rwxr-xr-x
+
+Example:
+touch file.sh
+ls -l file.sh         # will show -rw-r--r--
+chmod +x file.sh
+ls -l file.sh         # will show -rwxr-xr-x
+
+
+2. What is the difference between chmod 744 file.txt and chmod u=rwx,go=r file.txt?
+There is no difference in result. Both set the permissions to: 
+-rwxr--r--
+Only the syntax differs. One is numeric, the other is symbolic.
+
+Example:
+chmod 744 file.txt
+# OR
+chmod u=rwx,go=r file.txt
+
+--------------------------------------------------------------------------------
+3. What is the sticky bit, and when should you use it?
+Sticky bit is a permission flag that prevents users from deleting files they don’t own in a shared directory.
+Used in directories like /tmp or /shared.
+Only the file owner or root can delete their own files in that directory.
+
+Example:
+# 1. Create two users
+sudo adduser vasu
+sudo adduser student
+# (Set passwords when prompted)
+
+# 2. Create a shared directory
+sudo mkdir /shared
+
+# 3. Apply sticky bit with full access
+sudo chmod 1777 /shared
+
+# 4. Verify sticky bit is set
+ls -ld /shared
+# Output should include 't' at the end: drwxrwxrwt
+
+# 5. Switch to vasu and create a file
+su - vasu
+cd /shared
+echo "Vasu's file" > vasu.txt
+exit
+
+# 6. Switch to student and try deleting vasu's file
+su - student
+cd /shared
+rm vasu.txt
+# Expected output:
+# rm: cannot remove 'vasu.txt': Operation not permitted
+
+# 7. Create and delete own file as student
+echo "Student's file" > student.txt
+rm student.txt   # This should succeed
+-----------------------------------------------------------------------
+
+
+4. You are told to give the owner full access, group only execute, and others no permissions. What symbolic command achieves this?
+chmod u=rwx,g=x,o= file.txt
+This sets permissions to: -rwx--x---
+
+Example:
+touch file.txt
+chmod u=rwx,g=x,o= file.txt
+ls -l file.txt
+
+
+5. What is umask, and why is it important?
+umask defines default permission restrictions for newly created files and directories.
+It subtracts permissions from the system’s base permissions to ensure secure defaults.
+
+Example:
+umask         # check current value
+umask 022     # temporarily set umask
+
+
+6. If the umask is 022, what are the default permissions for a new file and a new directory?
+Files: 666 - 022 = 644 ==> rw-r--r--
+Directories: 777 - 022 = 755 ==> rwxr-xr-x
+
+Example:
+umask 022
+touch newfile
+mkdir newdir
+ls -l newfile
+ls -ld newdir
+
+
+7. Why is umask often set to 002 in development environments but 027 or 077 in production?
+002 allows group write access, making it easier for teams to collaborate.
+027 restricts others' access, suitable for semi-secure environments.
+077 gives access only to the owner, ideal for highly secure or production systems.
+
+umask 002     # Dev
+umask 027     # Semi-secure prod
+umask 077     # Secure prod
+
+
+
+8. useradd vs adduser
+
+| Feature     | useradd                | adduser                          |
+|-------------|------------------------|----------------------------------|
+| Type        | Low-level command      | High-level script                |
+| Interactive | No                     | Yes (prompts for info)           |
+| Home Dir    | Not created by default | Created by default               |
+| Password    | Must be set manually   | Asks during creation             |
+
+Examples:
+
+Using useradd:
+sudo useradd -m vasu
+sudo passwd vasu
+
+Using adduser:
+sudo adduser vasu
+# we will be prompted to enter password, full name, etc.
