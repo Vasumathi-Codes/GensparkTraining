@@ -1,0 +1,110 @@
+#  1. Project Structure
+mkdir task_05 && cd task_05
+mkdir backend
+
+
+#  2. Create backend/index.js
+
+const express = require('express');
+const { MongoClient } = require('mongodb');
+const app = express();
+
+const PORT = 5005;
+const MONGO_URL = process.env.MONGO_URL;
+
+app.get('/', async (req, res) => {
+  try {
+    const client = await MongoClient.connect(MONGO_URL);
+    const db = client.db('db');
+    const collections = await db.collections();
+    res.json({ message: 'Connected to MongoDB!', collections: collections.map(c => c.collectionName) });
+    client.close();
+  } catch (error) {
+    res.status(500).json({ error: 'Failed to connect to MongoDB', details: error.message });
+  }
+});
+
+app.listen(PORT, () => {
+  console.log(`Node API running on port ${PORT}`);
+});
+
+
+#  3. Create backend/package.json
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongodb": "^6.17.0"
+  }
+}
+
+
+#  4. Create backend/Dockerfile
+
+FROM node:18-alpine
+
+WORKDIR /app
+
+COPY package*.json ./
+RUN npm install
+
+COPY . .
+
+EXPOSE 5005
+CMD ["npm", "start"]
+
+
+#  5. Create docker-compose.yml (in task_05 root)
+
+services:
+  mongo:
+    image: mongo
+    container_name: mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+  backend:
+    build: ./backend
+    container_name: node-api
+    ports:
+      - "5005:5005"
+    environment:
+      - MONGO_URL=mongodb://mongo:27017/db
+    depends_on:
+      - mongo
+
+volumes:
+  mongo-data:
+
+
+# 6. Start everything
+docker compose up --build -d
+
+
+#  7. Check it's working
+curl http://localhost:5005/
+
+
+#  8. Enter MongoDB container
+docker exec -it mongo mongosh
+
+
+#  9. Create a collection and insert documents
+use db
+db.users.insertMany([
+  { name: "Loki", role: "Admin" },
+  { name: "Vasu", role: "Developer" }
+])
+db.users.find().pretty()
+exit
+
+
+#  10. Test backend again
+curl http://localhost:5005/

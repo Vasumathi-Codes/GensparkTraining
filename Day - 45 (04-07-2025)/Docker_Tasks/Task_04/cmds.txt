@@ -1,0 +1,77 @@
+# Step 1: Create Docker network
+docker network create app-network
+
+# Step 2: Create backend folder with index.js and Dockerfile
+
+# index.js
+const express = require('express');
+const app = express();
+const PORT = 5001;
+
+app.get('/api/hello', (req, res) => {
+  res.json({ message: 'Hello from Backend!' });
+});
+
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(\`Backend API running on port \${PORT}\`);
+});
+
+# backend Dockerfile
+FROM node:18-alpine
+WORKDIR /app
+COPY . .
+RUN npm install express
+EXPOSE 5001
+CMD [\"node\", \"index.js\"]
+
+
+# Step 3: Build backend image
+docker build -t my-backend .
+
+# Step 4: Run backend container on app-network
+docker run -d \
+  --name backend \
+  --network app-network \
+  -p 5001:5001 \
+  my-backend
+
+
+
+# Step 5: Update React code to use env var
+# Inside React: fetch(`backend:5001/api/hello`)
+
+# Step 6: Build React frontend
+npm run build
+
+# Step 7: Dockerfile for frontend (React + Nginx Alpine)
+FROM node:18-alpine AS build
+WORKDIR /app
+COPY package*.json ./
+RUN npm install
+COPY . .
+RUN npm run build
+
+FROM nginx:alpine
+COPY --from=build /app/dist /usr/share/nginx/html
+EXPOSE 80
+CMD [\"nginx\", \"-g\", \"daemon off;\"]
+
+# Step 8: Build frontend image
+docker build -t my-frontend .
+
+# Step 9: Run frontend container on app-network
+docker run -d \
+  --name frontend \
+  --network app-network \
+  -p 3000:80 \
+  my-frontend
+
+docker exec -it frontend sh  
+/ # wget -qO- http://backend:5001/api/hello
+wget: can't connect to remote host (172.20.0.2): Connection refused
+/ # wget -qO- http://backend:5001/api/hello
+{"message":"Hello from Backend!"}/ # 
+
+# Step 10: Visit the frontend
+# Open in browser:
+# http://localhost:3000
