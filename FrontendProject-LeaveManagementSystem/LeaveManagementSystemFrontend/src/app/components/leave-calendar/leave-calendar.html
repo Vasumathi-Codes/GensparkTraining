@@ -1,0 +1,24 @@
+<div class="calendar-container">
+  <mwl-calendar-month-view
+    [viewDate]="viewDate"
+    [events]="events"
+    [refresh]="refresh">
+  </mwl-calendar-month-view>
+</div>
+<div class="flex flex-wrap items-center justify-center gap-4 mt-6 text-sm text-gray-700">
+  <div class="flex items-center gap-2">
+    <span class="inline-block w-4 h-4 rounded-full bg-[#22c55e]"></span> Approved
+  </div>
+  <div class="flex items-center gap-2">
+    <span class="inline-block w-4 h-4 rounded-full bg-[#eab308]"></span> Pending
+  </div>
+  <div class="flex items-center gap-2">
+    <span class="inline-block w-4 h-4 rounded-full bg-[#ef4444]"></span> Rejected
+  </div>
+  <div class="flex items-center gap-2">
+    <span class="inline-block w-4 h-4 rounded-full bg-[#6b7280]"></span> Auto-Rejected
+  </div>
+  <div class="flex items-center gap-2">
+    <span class="inline-block w-4 h-4 rounded-full bg-[#9ca3af]"></span> Cancelled
+  </div>
+</div>
