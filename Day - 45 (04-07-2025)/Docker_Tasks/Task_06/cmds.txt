@@ -1,0 +1,28 @@
+# 1. Initialize Docker Swarm (do this only once)
+docker swarm init
+
+# 2. Create docker-compose.yml file
+version: "3.8"
+
+services:
+  nginx-web:
+    image: nginx:latest
+    ports:
+      - "8080:80"
+    deploy:
+      replicas: 3
+      restart_policy:
+        condition: on-failure
+
+# 3. Deploy the stack using the compose file
+docker stack deploy -c docker-compose.yml nginx-stack
+
+# 4. Verify the service
+docker service ls
+docker service ps nginx-stack_nginx-web
+curl localhost:8080
+
+
+# (Optional cleanup)
+# docker stack rm nginx-stack
+# docker swarm leave --force

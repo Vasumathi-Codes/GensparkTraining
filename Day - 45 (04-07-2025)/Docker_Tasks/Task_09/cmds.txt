@@ -1,0 +1,18 @@
+#  Step 1: Create a test service with 3 replicas and update delay
+docker service create \
+  --name webapp \
+  --replicas 3 \
+  --update-delay 10s \
+  httpd
+
+#  Step 2: Verify service is running
+docker service ls
+docker service ps webapp
+
+#  Step 3: Update image from httpd → httpd:alpine (rolling)
+docker service update \
+  --image httpd:alpine \
+  webapp
+
+#  Step 4: Watch the rolling update happen with delay
+docker service ps webapp

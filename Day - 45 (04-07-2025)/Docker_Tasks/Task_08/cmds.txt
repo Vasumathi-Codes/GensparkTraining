@@ -1,0 +1,9 @@
+#  Step 1: Scale Nginx to 5 replicas
+docker service scale nginx-stack_nginx-web=5
+
+#  Step 2: Verify scaling
+docker service ls
+docker service ps nginx-stack_nginx-web
+
+#  Step 3: Test service is still working
+curl localhost:8080
