@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "S9TnPAlElqAVI3bOyClMvFQ8VI/jh2LH0xX0hVpYQ8w=",
+  "Source": "SqlConnectApi",
+  "BasePath": "_content/SqlConnectApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
