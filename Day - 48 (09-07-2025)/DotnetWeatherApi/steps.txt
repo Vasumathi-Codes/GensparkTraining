@@ -1,0 +1,92 @@
+# ===============================================
+# FULL GUIDE: Deploy .NET API to Azure VM via Docker
+# ===============================================
+
+# -----------------------------------------------
+# STEP 1: Create Ubuntu VM on Azure
+# -----------------------------------------------
+# Use Azure Portal to create a VM with:
+# - Image: Ubuntu 20.04 LTS
+# - Size: Standard B1s (or any)
+# - Open Ports: 22 (SSH), 80 (HTTP)
+
+# -----------------------------------------------
+# STEP 2: Connect to Azure VM from Mac
+# -----------------------------------------------
+ssh vasumathi@<your-vm-public-ip>
+
+# Example:
+ssh vasumathi@40.90.248.207
+
+# -----------------------------------------------
+# STEP 3: Install Docker on the Azure VM
+# -----------------------------------------------
+sudo apt update
+sudo apt install docker.io -y
+sudo systemctl start docker
+sudo systemctl enable docker
+docker --version
+
+# -----------------------------------------------
+# STEP 4: Create Dockerfile in your .NET project
+# -----------------------------------------------
+# File: Dockerfile (place in project root)
+
+FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS base
+WORKDIR /app
+EXPOSE 6000
+
+FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
+WORKDIR /src
+COPY . .
+RUN dotnet publish -c Release -o /app/publish
+
+FROM base AS final
+WORKDIR /app
+COPY --from=build /app/publish .
+ENTRYPOINT ["dotnet", "DotnetWeatherApi.dll"]
+
+# -----------------------------------------------
+#  STEP 5: Build Docker Image (on your Mac)
+# -----------------------------------------------
+docker build -t vasumathi2801/my-dotnet-api-v2 .
+
+# -----------------------------------------------
+#  STEP 6: Push Image to Docker Hub
+# -----------------------------------------------
+docker login -u vasumathi2801
+docker push vasumathi2801/my-dotnet-api-v2
+
+# -----------------------------------------------
+# STEP 7: Log in to Docker Hub from Azure VM
+# -----------------------------------------------
+ssh vasumathi@<your-vm-public-ip>
+sudo docker login -u vasumathi2801
+# (enter Docker Hub password)
+
+# -----------------------------------------------
+#  STEP 8: Pull the Docker Image in VM
+# -----------------------------------------------
+sudo docker pull vasumathi2801/my-dotnet-api-v2
+
+# -----------------------------------------------
+#  STEP 9: Run the Container on Port 80
+# -----------------------------------------------
+sudo docker run -d -p 80:6000 vasumathi2801/my-dotnet-api-v2
+
+# -----------------------------------------------
+# STEP 10: Add NSG Inbound Rule in Azure Portal
+# -----------------------------------------------
+# Azure Portal → VM → Networking → Add Inbound Port Rule:
+# - Port: 80
+# - Protocol: TCP
+# - Action: Allow
+
+# -----------------------------------------------
+#  STEP 11: Access Your API from Browser
+# -----------------------------------------------
+# Go to:
+http://<your-vm-public-ip>/weatherforecast
+
+# Example:
+http://40.90.248.207/weatherforecast

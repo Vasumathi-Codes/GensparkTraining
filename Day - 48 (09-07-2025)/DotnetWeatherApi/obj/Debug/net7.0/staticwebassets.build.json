@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ukan065qi2IFb4SvRBgLGAaDpp81XxINOeR7b3HV3QU=",
+  "Source": "DotnetWeatherApi",
+  "BasePath": "_content/DotnetWeatherApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
