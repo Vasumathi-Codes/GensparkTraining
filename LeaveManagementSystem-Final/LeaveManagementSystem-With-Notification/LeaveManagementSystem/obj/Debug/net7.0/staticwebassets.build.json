@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "SNQOP3qCvzlM9tofykte3YqjTxlJ5Lzzt1Y3iQFIXPU=",
+  "Source": "LeaveManagementSystem",
+  "BasePath": "_content/LeaveManagementSystem",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "LeaveManagementSystem/wwwroot",
+      "Source": "LeaveManagementSystem",
+      "ContentRoot": "/Users/presidio/Desktop/LeaveManagementSystem-Final/LeaveManagementSystem-With-Notification/LeaveManagementSystem/wwwroot/",
+      "BasePath": "_content/LeaveManagementSystem",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

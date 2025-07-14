@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SignalR Test</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+</head>
+<body>
+
+  <h2>🔔 SignalR Notification</h2>
+  <div id="status">🔌 Connecting...</div>
+  <ul id="notifications"></ul>
+
+  <!-- <script>
+    // JWT token (store once for session)
+    localStorage.setItem("access_token", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIwNzI4YWY5Mi02ZDM4LTQ1NDctYmU3Yy1iY2ExZjNkY2RjYzYiLCJ1bmlxdWVfbmFtZSI6IkNoYW5kbGVyIiwiZW1haWwiOiJjaGFuZGxlckBleGFtcGxlLmNvbSIsInJvbGUiOiJIUiIsIm5iZiI6MTc1MDk1Mzk1NSwiZXhwIjoxNzUxMjEzMTU1LCJpYXQiOjE3NTA5NTM5NTV9.sHLDqSJGe7qEfQwZcEbqdY3OO1Eyx1Ny7htnAv_Dl2o");
+
+    const connection = new signalR.HubConnectionBuilder()
+      .configureLogging(signalR.LogLevel.Information)
+      .withUrl("http://localhost:5000/notificationhub", {
+        transport: signalR.HttpTransportType.WebSockets,
+        accessTokenFactory: () => localStorage.getItem("access_token")
+      })
+      .withAutomaticReconnect() // <--- Enables automatic reconnect
+      .build();
+
+    connection.on("ReceiveNotification", function (message) {
+      const list = document.getElementById("notifications");
+      const item = document.createElement("li");
+      item.textContent = message;
+      list.prepend(item);
+    });
+
+    connection.start()
+      .then(() => {
+        console.log("✅ Connected");
+        document.getElementById("status").textContent = "✅ Connected";
+      })
+      .catch(err => {
+        console.error("❌ Connection failed", err);
+        document.getElementById("status").textContent = "❌ Connection failed";
+      });
+
+    connection.onclose(error => {
+      console.warn("🔌 Connection closed", error);
+      document.getElementById("status").textContent = "🔌 Connection closed";
+    });
+  </script> -->
+<script>
+    const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIwNzI4YWY5Mi02ZDM4LTQ1NDctYmU3Yy1iY2ExZjNkY2RjYzYiLCJ1bmlxdWVfbmFtZSI6IkNoYW5kbGVyIiwiZW1haWwiOiJjaGFuZGxlckBleGFtcGxlLmNvbSIsInJvbGUiOiJIUiIsIm5iZiI6MTc1MDk1Mzk1NSwiZXhwIjoxNzUxMjEzMTU1LCJpYXQiOjE3NTA5NTM5NTV9.sHLDqSJGe7qEfQwZcEbqdY3OO1Eyx1Ny7htnAv_Dl2o";
+
+    const connection = new signalR.HubConnectionBuilder()
+        .withUrl("http://localhost:5000/notificationhub", {
+            accessTokenFactory: () => token
+        })
+        .withAutomaticReconnect()
+        .configureLogging(signalR.LogLevel.Information)
+        .build();
+
+    connection.on("ReceiveNotification", msg => {
+        console.log("📨 New message:", msg);
+        const ul = document.getElementById("notifications");
+        const li = document.createElement("li");
+        li.textContent = msg;
+        ul.prepend(li);
+    });
+
+    connection.start()
+        .then(() => {
+            console.log("✅ SignalR connected");
+            document.getElementById("status").textContent = "✅ Connected";
+        })
+        .catch(err => {
+            console.error("❌ SignalR error", err);
+            document.getElementById("status").textContent = "❌ Connection failed";
+        });
+
+    connection.onclose(error => {
+        console.warn("🔌 SignalR disconnected", error);
+        document.getElementById("status").textContent = "🔌 Connection closed";
+    });
+</script>
+
+
+</body>
+</html>
