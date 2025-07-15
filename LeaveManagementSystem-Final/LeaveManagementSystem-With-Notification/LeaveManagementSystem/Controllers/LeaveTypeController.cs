@@ -16,7 +16,7 @@ namespace LeaveManagementSystem.Controllers
     public class LeaveTypeController : ControllerBase
     {
         private readonly ILeaveTypeService _service;
-        private readonly ILogger<LeaveTypeController> _logger; // ILogger injected
+        private readonly ILogger<LeaveTypeController> _logger; 
 
         public LeaveTypeController(ILeaveTypeService service, ILogger<LeaveTypeController> logger)
         {

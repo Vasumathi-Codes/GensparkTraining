@@ -8,7 +8,6 @@ namespace LeaveManagementSystem.Interfaces
 {
     public interface ILeaveRequestService
     {
-        // Task<IEnumerable<LeaveRequestResponseDto>> GetAllAsync();
         Task<(IEnumerable<LeaveRequestResponseDto> Requests, int TotalCount)> GetAllAsync(int pageNumber, int pageSize, string searchTerm, string status, string sortBy, string sortOrder);
         Task<LeaveRequestResponseDto> GetByIdAsync(Guid id);
         Task<LeaveRequestResponseDto> CreateAsync(LeaveRequestDto request);

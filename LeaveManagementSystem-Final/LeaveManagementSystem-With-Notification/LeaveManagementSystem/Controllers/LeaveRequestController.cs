@@ -91,30 +91,6 @@ namespace LeaveManagementSystem.Controllers
             }
         }
 
-        // [HttpPost]
-        // [Authorize]
-        // public async Task<IActionResult> Create([FromBody] LeaveRequestDto dto)
-        // {
-        //     if (!ModelState.IsValid)
-        //     {
-        //         _logger.LogWarning("Invalid model state for leave request creation.");
-        //         return BadRequest(ApiResponse<object>.FailureResponse("Invalid request", ModelStateErrors()));
-        //     }
-
-        //     try
-        //     {
-        //         _logger.LogInformation("Creating new leave request.");
-        //         dto.Status = "Pending";
-        //         var created = await _service.CreateAsync(dto);
-        //         return CreatedAtAction(nameof(GetById), new { id = created.Id },
-        //             ApiResponse<object>.SuccessResponse(created, "Leave request created successfully"));
-        //     }
-        //     catch (Exception ex)
-        //     {
-        //         _logger.LogError(ex, "Error creating leave request.");
-        //         return StatusCode(500, ApiResponse<object>.FailureResponse($"Error creating leave request: {ex.Message}"));
-        //     }
-        // }
 
         [HttpPost]
         [Authorize]
@@ -134,7 +110,7 @@ namespace LeaveManagementSystem.Controllers
                 return CreatedAtAction(nameof(GetById), new { id = created.Id },
                     ApiResponse<object>.SuccessResponse(created, "Leave request created successfully"));
             }
-            catch (InvalidOperationException ex) // 🟢 Catch validation failures (like overlap, balance)
+            catch (InvalidOperationException ex) 
             {
                 _logger.LogWarning(ex, "Validation failed during leave request creation.");
                 return BadRequest(ApiResponse<object>.FailureResponse(ex.Message));

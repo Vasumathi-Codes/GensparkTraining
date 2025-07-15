@@ -26,32 +26,6 @@ namespace LeaveManagementSystem.Controllers
             _logger = logger;
         }
 
-        // [HttpGet]
-        // public async Task<IActionResult> GetAllUsers(
-        //     [FromQuery] int pageNumber = 1,
-        //     [FromQuery] int pageSize = 10,
-        //     [FromQuery] string searchTerm = null,
-        //     [FromQuery] string role = null,
-        //     [FromQuery] string sortBy = "CreatedAt",
-        //     [FromQuery] string sortOrder = "asc")
-        // {
-        //     try
-        //     {
-        //         _logger.LogInformation("Fetching all users with pagination parameters.");
-        //         var users = await _userService.GetAllUsers(pageNumber, pageSize, searchTerm, role, sortBy, sortOrder);
-        //         var response = ApiResponse<object>.SuccessResponse(users);
-        //         return Ok(response);
-        //     }
-        //     catch (Exception ex)
-        //     {
-        //         _logger.LogError(ex, "Error occurred while fetching users.");
-        //         var response = ApiResponse<object>.FailureResponse("Failed to get users", new Dictionary<string, List<string>>
-        //         {
-        //             { "Exception", new List<string> { ex.Message } }
-        //         });
-        //         return StatusCode(500, response);
-        //     }
-        // }
 
         [HttpGet]
         public async Task<IActionResult> GetAllUsers(
@@ -95,25 +69,6 @@ namespace LeaveManagementSystem.Controllers
                 return StatusCode(500, response);
             }
         }
-
-
-        // [HttpGet("{id:guid}")]
-        // public async Task<IActionResult> GetUserById(Guid id)
-        // {
-        //     try
-        //     {
-        //         _logger.LogInformation("Fetching user with ID: {UserId}", id);
-        //         var user = await _userService.GetUserById(id);
-        //         var response = ApiResponse<object>.SuccessResponse(user);
-        //         return Ok(response);
-        //     }
-        //     catch (Exception ex)
-        //     {
-        //         _logger.LogError(ex, "Error occurred while fetching user with ID: {UserId}", id);
-        //         var response = ApiResponse<object>.FailureResponse("Failed to get user by id", new Dictionary<string, List<string>> { { "Exception", new List<string> { ex.Message } } });
-        //         return NotFound(response);
-        //     }
-        // }
 
         // Version 1 - Original GetUserById
         [HttpGet("user/{id:guid}")]
@@ -163,30 +118,14 @@ namespace LeaveManagementSystem.Controllers
             }
         }
 
-        // [HttpGet("{id}")]
-        // public async Task<ActionResult<UserDetailDto>> GetUserDetail(Guid id)
-        // {
-        //     try
-        //     {
-        //         var user = await _userService.GetUserDetailById(id);
-        //         return Ok(user);
-        //     }
-        //     catch (KeyNotFoundException)
-        //     {
-        //         return NotFound(new { Message = "User not found." });
-        //     }
-        //     catch (Exception ex)
-        //     {
-        //         return StatusCode(500, new { Message = ex.Message });
-        //     }
-        // }
+        
 
         [HttpGet("{id}/detail")]
-public async Task<ActionResult<UserDetailDto>> GetUserDetail(Guid id, [FromQuery] int skip = 0, [FromQuery] int take = 10)
-{
-    var result = await _userService.GetUserDetailById(id, skip, take);
-    return Ok(result);
-}
+        public async Task<ActionResult<UserDetailDto>> GetUserDetail(Guid id, [FromQuery] int skip = 0, [FromQuery] int take = 10)
+        {
+            var result = await _userService.GetUserDetailById(id, skip, take);
+            return Ok(result);
+        }
 
 
         [HttpPost]
@@ -214,6 +153,7 @@ public async Task<ActionResult<UserDetailDto>> GetUserDetail(Guid id, [FromQuery
                 return StatusCode(500, response);
             }
         }
+
 
         [HttpPut("{id:guid}")]
         [Authorize]
@@ -248,6 +188,7 @@ public async Task<ActionResult<UserDetailDto>> GetUserDetail(Guid id, [FromQuery
                 return NotFound(response);
             }
         }
+
 
         [HttpDelete("{id:guid}")]
         [Authorize(Roles = "HR")]

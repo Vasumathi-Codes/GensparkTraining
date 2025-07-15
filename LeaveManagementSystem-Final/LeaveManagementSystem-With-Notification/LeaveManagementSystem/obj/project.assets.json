@@ -5150,11 +5150,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/presidio/Desktop/LeaveManagementSystem-Final/LeaveManagementSystem-With-Notification/LeaveManagementSystem/LeaveManagementSystem.csproj",
+      "projectUniqueName": "/Users/presidio/Downloads/Genspark_Training 2/LeaveManagementSystem-Final/LeaveManagementSystem-With-Notification/LeaveManagementSystem/LeaveManagementSystem.csproj",
       "projectName": "LeaveManagementSystem",
-      "projectPath": "/Users/presidio/Desktop/LeaveManagementSystem-Final/LeaveManagementSystem-With-Notification/LeaveManagementSystem/LeaveManagementSystem.csproj",
+      "projectPath": "/Users/presidio/Downloads/Genspark_Training 2/LeaveManagementSystem-Final/LeaveManagementSystem-With-Notification/LeaveManagementSystem/LeaveManagementSystem.csproj",
       "packagesPath": "/Users/presidio/.nuget/packages/",
-      "outputPath": "/Users/presidio/Desktop/LeaveManagementSystem-Final/LeaveManagementSystem-With-Notification/LeaveManagementSystem/obj/",
+      "outputPath": "/Users/presidio/Downloads/Genspark_Training 2/LeaveManagementSystem-Final/LeaveManagementSystem-With-Notification/LeaveManagementSystem/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/presidio/.nuget/NuGet/NuGet.Config"

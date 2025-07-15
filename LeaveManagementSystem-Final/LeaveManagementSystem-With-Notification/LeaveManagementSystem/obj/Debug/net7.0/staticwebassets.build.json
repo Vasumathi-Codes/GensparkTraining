@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SNQOP3qCvzlM9tofykte3YqjTxlJ5Lzzt1Y3iQFIXPU=",
+  "Hash": "RbjC63n27G4GGrQzY3PqQwtV1ga5mnp3PF5x9opLoac=",
   "Source": "LeaveManagementSystem",
   "BasePath": "_content/LeaveManagementSystem",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "LeaveManagementSystem/wwwroot",
       "Source": "LeaveManagementSystem",
-      "ContentRoot": "/Users/presidio/Desktop/LeaveManagementSystem-Final/LeaveManagementSystem-With-Notification/LeaveManagementSystem/wwwroot/",
+      "ContentRoot": "/Users/presidio/Downloads/Genspark_Training 2/LeaveManagementSystem-Final/LeaveManagementSystem-With-Notification/LeaveManagementSystem/wwwroot/",
       "BasePath": "_content/LeaveManagementSystem",
       "Pattern": "**"
     }

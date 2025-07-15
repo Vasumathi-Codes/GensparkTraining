@@ -1,26 +1,21 @@
+<!-- Toolbar -->
 <div class="flex justify-between items-center mb-4 flex-wrap gap-3">
-  <!-- Previous Button -->
-  <button
-    class="px-4 py-2 bg-[#006f6d] hover:bg-[#005452] text-white rounded transition"
-    (click)="prevMonth()">
+  <!-- Previous -->
+  <button class="btn btn-primary" (click)="prevMonth()">
     &larr; Previous
   </button>
 
-  <!-- Current Month Display -->
-  <h2 class="text-lg font-semibold text-[#006f6d]">
+  <!-- Current Month -->
+  <h2 class="text-lg font-semibold text-[var(--primary)]">
     {{ viewDate | date: 'MMMM yyyy' }}
   </h2>
 
   <!-- Today + Next -->
   <div class="flex gap-2">
-    <button
-      class="px-4 py-2 border border-[#006f6d] text-[#006f6d] bg-white hover:bg-[#f0fdfa] rounded transition"
-      (click)="goToToday()">
+    <button class="btn bg-white text-[var(--primary)] border border-[var(--primary)] hover:bg-[var(--background)]" (click)="goToToday()">
       Today
     </button>
-    <button
-      class="px-4 py-2 bg-[#006f6d] hover:bg-[#005452] text-white rounded transition"
-      (click)="nextMonth()">
+    <button class="btn btn-primary" (click)="nextMonth()">
       Next &rarr;
     </button>
   </div>
@@ -36,20 +31,20 @@
 </div>
 
 <!-- Legend -->
-<div class="flex flex-wrap items-center justify-center gap-4 mt-6 text-sm text-gray-700">
+<div class="flex flex-wrap items-center justify-center gap-4 mt-6 text-sm text-[var(--gray-dark)]">
   <div class="flex items-center gap-2">
-    <span class="inline-block w-4 h-4 rounded-full bg-[#22c55e]"></span> Approved
+    <span class="inline-block w-4 h-4 rounded-full" style="background: var(--success)"></span> Approved
   </div>
   <div class="flex items-center gap-2">
-    <span class="inline-block w-4 h-4 rounded-full bg-[#eab308]"></span> Pending
+    <span class="inline-block w-4 h-4 rounded-full" style="background: var(--warning)"></span> Pending
   </div>
   <div class="flex items-center gap-2">
-    <span class="inline-block w-4 h-4 rounded-full bg-[#ef4444]"></span> Rejected
+    <span class="inline-block w-4 h-4 rounded-full" style="background: var(--error)"></span> Rejected
   </div>
   <div class="flex items-center gap-2">
-    <span class="inline-block w-4 h-4 rounded-full bg-[#6b7280]"></span> Auto-Rejected
+    <span class="inline-block w-4 h-4 rounded-full" style="background: var(--gray-dark)"></span> Auto-Rejected
   </div>
   <div class="flex items-center gap-2">
-    <span class="inline-block w-4 h-4 rounded-full bg-[#9ca3af]"></span> Cancelled
+    <span class="inline-block w-4 h-4 rounded-full bg-gray-400"></span> Cancelled
   </div>
 </div>

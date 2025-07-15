@@ -30,7 +30,7 @@ builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
 builder.Logging.AddLog4Net("log4net.config");
 
-builder.WebHost.UseUrls("http://localhost:5000");
+builder.WebHost.UseUrls("http://localhost:5050");
 
 builder.Services.AddHttpContextAccessor();
 
@@ -233,6 +233,11 @@ app.UseEndpoints(endpoints =>
 });
 #endregion
 
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    db.Database.Migrate(); 
+}
 
 app.Run();
 
