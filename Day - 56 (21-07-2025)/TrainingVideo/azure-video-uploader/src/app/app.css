@@ -1,0 +1,35 @@
+/* Header styling */
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #34495e;
+  color: white;
+  padding: 12px 24px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo/title */
+.logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* Nav links */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+
+nav a:hover,
+.active-link {
+  color: #1abc9c;
+}
+
+/* Main content */
+.main-content {
+  padding: 24px;
+}
